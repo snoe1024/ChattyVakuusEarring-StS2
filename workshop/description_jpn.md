@@ -12,10 +12,6 @@ MOD設定を変えれば、囁きのイヤリングを所持していなくて�
 [b]必須Mod[/b]
 BaseLib(Workshopの依存関係として自動的にインストールされます)。
 
-[b]対応言語[/b]
-英語、日本語、ドイツ語、スペイン語、フランス語、韓国語、ロシア語、中国語（簡体字）、中国語（繁体字）。
-開発者が日本人のため、それ以外の言語は機械翻訳です。修正案を大歓迎します。
-
 [b]フィードバック[/b]
 バグ報告や翻訳の修正は、GitHubのIssueでお気軽にどうぞ:
 [url=https://github.com/snoe1024/ChattyVakuusEarring-StS2]https://github.com/snoe1024/ChattyVakuusEarring-StS2[/url]

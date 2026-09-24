@@ -242,11 +242,11 @@
 
   "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.0": "[shake][red]使えぬまま消えてしまいますが、よろしいので？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.1": "[shake][red]このターンを逃せば、二度と使えなかったでしょうに。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]エセリアル[/gold][red]は儚いもの…見過ごせば消えるだけです。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]エセリアル[/gold][red]は儚いもの…このまま消えてしまいますねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.0": "[shake][red]ブロックが要る時に、なぜ今頃引くのです？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.1": "[shake][red]もっと早く引いていれば、間に合ったでしょうに。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]防御スキルを引いていますが、手遅れのようですねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]防御カードを引いていますが、手遅れのようですねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.0": "[shake][gold]弱体[/gold][red]を先に付けてあげれば、お友達はもっと強く出れましたね？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.1": "[shake][red]その[/red][gold]弱体[/gold][red]を付けられるカード、先に使わなくてよかったのですか？[/red][/shake]",
@@ -254,5 +254,5 @@
 
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][gold]衰弱[/gold][red]を先に付けてあげれば、お友達はもっとダメージを出せましたね？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]その[/red][gold]衰弱[/gold][red]を付けられるカード、出し渋っている場合ですか？[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]何をしているんです？お友達が先にアタックしてしまいましたよ。[/red][/shake]"
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]何をしているんです？\nお友達が先にアタックしてしまいましたよ。[/red][/shake]"
 }

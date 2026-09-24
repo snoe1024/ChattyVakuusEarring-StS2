@@ -1,0 +1,6 @@
+{
+  "CHATTYVAKUUSEARRING.mod_title": "La boucle d'oreille bavarde de Vakuu",
+
+  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.title": "Autoriser les chuchotements sans la boucle d'oreille",
+  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.hover.desc": "Active le système de chuchotement de Vakuu même sans la Boucle d'oreille susurrante. Les effets de la relique et les dialogues qui en découlent ne se produisent pas."
+}
