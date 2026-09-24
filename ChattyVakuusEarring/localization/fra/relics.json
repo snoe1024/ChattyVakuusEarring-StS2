@@ -1,0 +1,258 @@
+{
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.0": "[shake][red]Voilà qui est mieux.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.1": "[shake][red]Me laisser faire, c'était malin, non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.2": "[shake][red]Un jeu d'enfant, pour moi.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.3": "[shake][red]J'ai peut-être fait mieux que toi, tiens.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.4": "[shake][red]Ta prochaine action... voilà qui promet.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.0": "[shake][red]Assez ![/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.1": "[shake][red]Au-delà, cela cesse d'être amusant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.2": "[shake][red]Bon... contentons-nous de cela...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.3": "[shake][red]Le prix payé, le travail est fait.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.4": "[shake][red]Tout n'est beau que parce qu'il finit un jour.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BAD_HAND.0": "[shake][red]Quelle main désastreuse...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.1": "[shake][red]Là... plus rien à faire.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.2": "[shake][red]Le monde ne se plie pas à ta convenance.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.3": "[shake][red]Avec le prix payé, j'aurais pu t'offrir mieux.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.4": "[shake][red]Montre-moi comment tu te débats.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.0": "[shake][red]Toutes ces malédictions... cela te va à ravir.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.1": "[shake][red]C'est un malheur que tu as toi-même causé.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.2": "[shake][red]Tu aurais dû t'en occuper avant d'en arriver là.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.3": "[shake][red]Les malédictions semblent t'adorer, dis donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.4": "[shake][red]Cette malédiction semble présager ce qui t'attend.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.0": "[shake][red]Cela ne te dérange pas si je l'achève moi-même ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.1": "[shake][red]Il est rare que j'intervienne moi-même.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.2": "[shake][red]On dirait que je t'ai donné un coup de main, tiens...[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.0": "[shake][red]J'ai encore besoin que tu te battes.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.1": "[shake][red]Voilà, comme ça.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.2": "[shake][red]Peiner pour si peu ne te va pas...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.3": "[shake][red]Poursuivons ce massacre, veux-tu.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.4": "[shake][red]Tu as encore soif de sang...\nn'est-ce pas ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.0": "[shake][red]Ton ami semble faire bien plus d'efforts que toi.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.1": "[shake][red]Et si tu t'efforçais un peu plus, toi aussi ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]Quelle synchronisation, dis donc...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.3": "[shake][red]Tu as un ami remarquable, à ce qu'il paraît ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.4": "[shake][red]Il faudra que je lui propose un contrat, à lui aussi.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.0": "[shake][red]Cela pouvait bien arriver, pourtant...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.1": "[shake][red]Rien que des cartes lourdes... tu ne peux plus bouger.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.2": "[shake][red]Tu aurais dû prévoir cela, non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.3": "[shake][red]Tu n'arriveras jamais à tout dépenser.\nC'est aussi une responsabilité à assumer.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.4": "[shake][red]Une main bien trop belle pour toi.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.0": "[shake][red]Dansons, veux-tu.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.1": "[shake][red]Sage décision.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.2": "[shake][red]Le prix est encaissé.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.3": "[shake][red]Tu n'as vraiment aucune retenue...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.4": "[shake][red]Il reste encore de la place pour d'autres contrats.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.5": "[shake][red]Laisse-moi te parachever.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.0": "[shake][red]Tiens, tiens, tu acceptes de signer un contrat ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.1": "[shake][red]Faire affaire avec toi, quelle surprise.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.2": "[shake][red]Je ne refuse jamais personne. Mais le prix, je le prends.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.3": "[shake][red]Toi aussi, tu acceptes ma puissance.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.4": "[shake][red]Je t'ai donné ce pouvoir, alors je viens chercher mon prix, hm ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.5": "[shake][red]Je vais faire de toi la perfection incarnée.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.0": "[shake][red]Voilà une invention intéressante...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.1": "[shake][red]Une arme amusante. Mais pas belle.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.2": "[shake][red]Le prix de cette arme...\ntu ne sembles pas l'avoir remarqué.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.0": "[shake][red]Tiens, tiens, pauvre [/red][gold]Orichalque[/gold][red]...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.1": "[shake][red]Une Armure bien maigre, dis donc.\n[/red][gold]Orichalque[/gold][red] aurait pu faire le travail.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.2": "[shake][red]Sans Armure du tout, [/red][gold]Orichalque[/gold][red] t'en aurait donné un peu.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.0": "[shake][gold]Pointe de stylo[/gold][red], l'as-tu seulement remarquée ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.1": "[shake][red]Cette attaque, [/red][gold]Pointe de stylo[/gold][red] l'attendait avec impatience.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.2": "[shake][red]Il y avait une attaque qui aurait mieux mis [/red][gold]Pointe de stylo[/gold][red] à profit.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.0": "[shake][gold]Vestige battant[/gold][red] en pleure. Cette Armure, en avais-tu vraiment besoin ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.1": "[shake][red]Ça plafonnait de toute façon...\n[/red][gold]Vestige battant[/gold][red] en reste sans voix.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.2": "[shake][red]Du gâchis. [/red][gold]Vestige battant[/gold][red] t'aurait couvert.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.IDLE.0": "[shake][red]...On dirait que tes pensées t'accaparent. Attendre, quel ennui.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.1": "[shake][red]Toujours pas fini ? Mon temps est infini. Le tien ne l'est pas.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]Ta main s'est arrêtée. Veux-tu que je prenne le relais ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]Bâillement[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]Réfléchis autant qu'il te plaira. Le dénouement, lui, ne changera pas.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]Ça avait l'air douloureux, dis donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]Tu ne peux pas encaisser ça indéfiniment, tu sais ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]Tiens... tu ne comptais pas te défendre ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]Encore un malheur de ta fabrication, j'imagine.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]Cela ne devient pas un peu dangereux, tout ça ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]Tu as mauvaise mine, dis donc...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]Tomber ici serait d'un ennui...[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]Cette posture, là... pourras-tu l'encaisser ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]Survis ce tour, ou c'est fini, tu sais ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.2": "[shake][red]Regarde bien. Celui-là en veut à ta vie.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.0": "[shake][red]...Tu comptes vraiment terminer comme ça ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.1": "[shake][red]Avec si peu de défense, tu comptes encaisser ce coup ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.2": "[shake][red]Choisir soi-même sa propre fin... voilà qui force le respect.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]Il te reste de l'Énergie. Tu ne comptes pas tout dépenser ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]Il te reste des cartes jouables... les aurais-tu oubliées ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]Tu comptes économiser ? Voilà qui ne me plaît guère.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]Fallait-il vraiment y mettre autant de force ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]Quel coup excessif. Un peu plus de mesure, la prochaine fois ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]Cette force en trop, tu aurais pu la garder pour ailleurs.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]Cela s'éternise, dis donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]Toujours pas fini ? Je commence à m'ennuyer.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]Un peu plus d'efficacité, ce ne serait pas de refus ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]Tiens, [/red][gold]Diapason[/gold][red], tu t'en souvenais encore ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]Diapason[/gold][red] brûlait d'impatience...\ncette carte était-elle bien nécessaire ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.2": "[shake][gold]Diapason[/gold][red] fait toujours de son mieux pour toi.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.0": "[shake][red]Ah, [/red][gold]Poussière galactique[/gold][red] se dévoue tant pour toi...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.1": "[shake][gold]Poussière galactique[/gold][red]...\nquel gâchis.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.2": "[shake][gold]Poussière galactique[/gold][red], n'oublie pas non plus de t'en servir.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.0": "[shake][red]Tiens, [/red][gold]Calendrier de pierre[/gold][red], tu l'aurais oublié ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.1": "[shake][gold]Calendrier de pierre[/gold][red] s'en serait chargé pour toi.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.2": "[shake][red]Pas besoin de t'épuiser, [/red][gold]Calendrier de pierre[/gold][red] s'en serait occupé.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.0": "[shake][red]Cette fois, [/red][gold]Larmes de Paël[/gold][red] attendront leur tour, semble-t-il.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.1": "[shake][red]Les [/red][gold]Larmes de Paël[/gold][red] sont passées à côté, dis donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.2": "[shake][gold]Larmes de Paël[/gold][red], elles ne se déclencheront pas au prochain tour, hein ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.0": "[shake][gold]Sceau doré[/gold][red] déplore ton absence de prévoyance.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.1": "[shake][red]Incapable de payer un prix si modeste...\nquelle déception...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.2": "[shake][gold]Sceau doré[/gold][red], toujours aussi mal exploité, hein ?[/red][/shake]\n[i][font_size=22][sine][red](rire)[/red][/sine][/font_size][/i]",
+
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.0": "[shake][gold]Potion d'armure[/gold][red] en pleure.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.1": "[shake][red]Pour encaisser autant, n'était-ce pas le moment d'utiliser [/red][gold]Potion d'armure[/gold][red] ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.2": "[shake][gold]Potion d'armure[/gold][red] n'existe que pour être bue.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.0": "[shake][gold]Fortifiant[/gold][red] aurait dû te protéger.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.1": "[shake][red]Triplée, ton Armure t'aurait épargné ce coup...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.2": "[shake][gold]Fortifiant[/gold][red], tu comptes l'utiliser quand, au juste ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.0": "[shake][gold]Potion d'entrave[/gold][red] ne vaut rien tant qu'elle reste inutilisée.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.1": "[shake][red]Si tu leur avais seulement retiré un peu de Force, cela aurait fait bien moins mal.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.2": "[shake][red]Si ça fait si mal, c'était peut-être le moment d'utiliser [/red][gold]Potion d'entrave[/gold][red]...[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.0": "[shake][gold]Potion incendiaire[/gold][red], ça s'utilise sans hésiter, tu sais.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.1": "[shake][red]Il suffisait de le brûler, et tu aurais encaissé bien moins de dégâts.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.2": "[shake][gold]Potion incendiaire[/gold][red], tu comptes l'utiliser quand ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.0": "[shake][red]À quoi bon garder cette [/red][gold]Pierre en forme de potion[/gold][red] sous le coude ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.1": "[shake][red]Il suffisait de lui lancer cette pierre, et tu aurais encaissé bien moins de dégâts.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.2": "[shake][red]Utiliser [/red][gold]Pierre en forme de potion[/gold][red] t'aurait peut-être simplifié un peu la tâche, non ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.0": "[shake][red]Tu aurais pu utiliser [/red][gold]Ampoule explosive[/gold][red], non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.1": "[shake][red]En abattre ne serait-ce qu'un seul, et tu aurais encaissé bien moins de dégâts.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.2": "[shake][red]S'il y avait une [/red][gold]Ampoule explosive[/gold][red] sous la main pour un moment pareil...\ntiens ? Il y en a une.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.0": "[shake][red]Si ce n'est pas maintenant, quand comptes-tu utiliser [/red][gold]{Potion}[/gold][red] ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.1": "[shake][gold]{Potion}[/gold][red] : y tiens-tu à ce point ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.2": "[shake][gold]{Potion}[/gold][red] : jusqu'à quand comptes-tu attendre ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.0": "[shake][red]Il te faudra un coup bien plus puissant...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.1": "[shake][red]Une attaque à ta mesure, je suppose.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.2": "[shake][red]C'est tout ce que tu as comme attaque ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.3": "[shake][red]Pas mal, mais...\nun peu plus de prix, pour un peu plus de force ?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.0": "[shake][red]Ce coup-là, pas mal du tout.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.1": "[shake][red]Intéressant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.2": "[shake][red]La force brute, parfois, a sa propre beauté.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.3": "[shake][red]Joli bruit, tiens.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.0": "[shake][red]Magnifique, ce coup.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.1": "[shake][red]Héhé, j'en voudrais voir un peu plus, du sang.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.2": "[shake][red]Écrase-le, sans pitié.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.3": "[shake][red]Un grand pouvoir vient toujours avec son prix.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]Les petites ruses ont toutes une limite, un jour ou l'autre.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]Tu comptes t'accrocher à ça encore longtemps ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]Ce n'est pas avec ça que tu changeras l'issue.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]Une précaution si maigre, ça ne rassure même pas.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]Presque aucun effet, et pourtant, quelle assiduité.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]Rusé, ce coup-là.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]Un plan bien ficelé.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]Paie un peu plus, et ta Force n'en sera que plus grande.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]Tu sembles y avoir réfléchi, à ce que je vois.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]Quelle ingéniosité, dis donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]Héhé, quel coup d'éclat.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.2": "[shake][red]Un grand projet exige une préparation soignée.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.3": "[shake][red]Ne gâche surtout pas cet effort supplémentaire.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.4": "[shake][red]Une saveur que la force brute ne saurait offrir.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.0": "[shake][red]Jouer la carte du long terme ? Pas mal.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.1": "[shake][red]Un coup discret n'en est pas moins redoutable.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.2": "[shake][red]Petit à petit... voilà une approche qui a du charme.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.3": "[shake][red]Ne néglige pas non plus le présent.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.0": "[shake][red]Ceci aussi, c'est une forme de contrat.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.1": "[shake][red]Sauras-tu vraiment tirer parti de ce pouvoir ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.2": "[shake][red]Aurais-tu trouvé une ouverture ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.3": "[shake][red]Un grand pouvoir exige une résolution à sa mesure.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.4": "[shake][red]Voilà un pouvoir bien intéressant.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.0": "[shake][red]Un invité qu'on n'a pas convié, celui-là.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.1": "[shake][red]On t'a refilé un fardeau bien encombrant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.2": "[shake][red]Avec le bon prix, je pourrais bien arranger ça.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.0": "[shake][red]Ta Main est vide, alors que comptes-tu faire de cette Énergie ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.1": "[shake][gold]Potion d'énergie[/gold][red]... gaspillée ainsi, quel dommage.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.2": "[shake][red]Verser du pouvoir dans une Main vide, quel geste audacieux.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.0": "[shake][red]Pas une carte pour poser de l'Armure, et pourtant, quelle hâte ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.1": "[shake][red]Aucun moyen de te défendre... en vain, donc.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.2": "[shake][red]Pas d'Armure à poser, mais l'empressement, lui, était bien là.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.0": "[shake][red]Pas une carte pour infliger des dégâts, alors que comptais-tu renforcer ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.1": "[shake][red]Aucun coup à porter... cette force, gaspillée pour rien.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.2": "[shake][red]Cette force n'avait nulle part où aller, semble-t-il.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.0": "[shake][red]À peine une menace, et pourtant tu l'as utilisée. Pourquoi ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.1": "[shake][red]Tu avais pourtant assez d'Armure... un peu prématuré, non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.2": "[shake][red]Le moment d'utiliser [/red][gold]Potion d'armure[/gold][red] devait venir plus tard.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.0": "[shake][red]Pas de grande blessure, alors que comptais-tu soigner ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.1": "[shake][red]Verser dans un vase déjà plein, cela ne fait que déborder.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.2": "[shake][red]Quel gâchis, cette façon de t'en servir.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.0": "[shake][red]Il n'y avait même pas une carte à rendre moins chère dans ta Main.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.1": "[shake][red]Et qu'est-ce que tu comptais alléger, au juste ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.2": "[shake][gold]Goutte de folie[/gold][red], utilisée pour rien, tout simplement.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.0": "[shake][red]Tripler une Armure aussi maigre, à quoi bon ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.1": "[shake][red]Gonfler un petit chiffre... cela ne change pas grand-chose.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.2": "[shake][red]Triplé ou non, cela restait dans la marge d'erreur.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.0": "[shake][red]Ta Pioche est presque vide, et que comptais-tu y voir ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.1": "[shake][red]À peine un choix à faire... quel trésor gâché.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.2": "[shake][red]Ainsi... contempler l'avenir n'aura servi à rien.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.0": "[shake][red]Tu l'as piochée...\ninutilisable pour l'instant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.1": "[shake][red]La garder en main sans t'en servir... la puissance ne s'éveillera pas pour autant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.2": "[shake][red]Tu n'as plus qu'à attendre, les bras croisés, que ta Pioche refasse un tour complet.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.0": "[shake][red]Elle disparaîtra sans avoir servi. Cela te convient ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.1": "[shake][red]Manquer ce tour, et tu ne l'aurais plus jamais utilisée.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]Éthéré[/gold][red] est chose fugace... et la voilà qui s'évanouit, tout simplement.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.0": "[shake][red]Tu avais besoin d'Armure, alors pourquoi la piocher maintenant ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.1": "[shake][red]Piochée plus tôt, elle serait arrivée à temps.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]Une carte défensive, piochée... mais un peu tard, semble-t-il.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.0": "[shake][red]En infligeant [/red][gold]Vulnérable[/gold][red] d'abord, ton ami aurait frappé bien plus fort, non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.1": "[shake][red]Cette carte qui inflige [/red][gold]Vulnérable[/gold][red], tu n'avais vraiment pas besoin de la jouer en premier ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.2": "[shake][red]Si tu avais agi plus tôt, l'issue aurait pu être différente.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][red]En infligeant [/red][gold]Amoindrir[/gold][red] d'abord, ton ami aurait infligé bien plus de dégâts, non ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]Cette carte qui inflige [/red][gold]Amoindrir[/gold][red], ce n'était vraiment pas le moment de la garder ?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]Qu'est-ce que tu fabriques ?\nTon ami a déjà frappé avant toi.[/red][/shake]"
+}

@@ -1,0 +1,258 @@
+{
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.0": "[shake][red]这样才对[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.1": "[shake][red]呵呵，交给我，是正确的选择吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.2": "[shake][red]这点小事，不费吹灰之力。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.3": "[shake][red]我似乎比你做得更好，是么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.approval.4": "[shake][red]接下来你要如何行动，值得一看。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.0": "[shake][red]这样就好[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.1": "[shake][red]再多，就没意思了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.2": "[shake][red]罢了，就到这里吧……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.3": "[shake][red]该做的，我已按代价做完了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRST_TURN_END.warning.4": "[shake][red]终有尽头，才显美丽。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BAD_HAND.0": "[shake][red]这手牌，真是糟糕……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.1": "[shake][red]这……已经无从下手了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.2": "[shake][red]世事岂能尽如你意。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.3": "[shake][red]若是收到了代价，本可以给你更好的手牌。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BAD_HAND.4": "[shake][red]让我看看，你挣扎的样子。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.0": "[shake][red]满身诅咒的模样……很适合你。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.1": "[shake][red]这是你自己招来的灾祸。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.2": "[shake][red]早该在此之前，妥善处理才是。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.3": "[shake][red]看来诅咒很眷顾你。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CURSE_HAND.4": "[shake][red]这诅咒，仿佛预示着你的结局。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.0": "[shake][red]由我来解决，你不会介意吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.1": "[shake][red]我很少亲自动手的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VAKUU_KILL.2": "[shake][red]看来，我帮了你一把……[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.0": "[shake][red]你还得继续战斗才行。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.1": "[shake][red]保持这个状态。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.2": "[shake][red]这点程度就吃力，不该如此……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.3": "[shake][red]就这样，继续杀戮吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAYER_KILL.4": "[shake][red]你仍然渴求着鲜血……\n是吧？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.0": "[shake][red]你的同伴，似乎更卖力一些。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.1": "[shake][red]你是不是也该更努力一些？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]配合得真漂亮……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.3": "[shake][red]你似乎交了个很出色的朋友？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.4": "[shake][red]看来也该向那位，推荐一份契约了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.0": "[shake][red]这种事，本该预料到的……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.1": "[shake][red]满手都是沉重的牌，动弹不得了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.2": "[shake][red]这种情况，不该早有预料么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.3": "[shake][red]根本用不完。\n这也是你该负的责任。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HIGH_COST_HAND.4": "[shake][red]这副手牌，对你来说太浪费了。[/red][/shake]",
+  
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.0": "[shake][red]与我共舞吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.1": "[shake][red]好决断。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.2": "[shake][red]代价，已经收下了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.3": "[shake][red]真拿你没办法……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.4": "[shake][red]契约，还能再签几份。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM.5": "[shake][red]让我把你变得完美吧。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.0": "[shake][red]哎呀，你愿意与我签订契约么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.1": "[shake][red]没想到，能与你做成交易。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.2": "[shake][red]来者不拒。不过，代价我是要收的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.3": "[shake][red]没想到你也愿意接受我的力量。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.4": "[shake][red]既然赐予了力量，代价我可要收下了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_DEMON_FORM-NOT_IRONCLAD.5": "[shake][red]让我把你打造成完美的战士吧。[/red][/shake]",
+  
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.0": "[shake][red]真是有趣的发明……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.1": "[shake][red]有趣的武器，但谈不上美。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PLAY_MAD_SCIENCE.2": "[shake][red]使用这武器的代价……\n你似乎还没意识到。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.0": "[shake][red]哎呀，[/red][gold]奥利哈钢[/gold][red]真是可怜。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.1": "[shake][red]这格挡真是敷衍。\n[/red][gold]奥利哈钢[/gold][red]本可以派上用场的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.2": "[shake][red]没有格挡的话，[/red][gold]奥利哈钢[/gold][red]原是要替你出手的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.0": "[shake][gold]钢笔尖[/gold][red]，你注意到了么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.1": "[shake][red]刚才那一击，[/red][gold]钢笔尖[/gold][red]可是卯足了劲。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PEN_NIB_COMPLAINT.2": "[shake][red]本有更能发挥[/red][gold]钢笔尖[/gold][red]的攻击。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.0": "[shake][gold]律动残余[/gold][red]在哭泣了。那格挡，真的需要么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.1": "[shake][red]反正也到上限就停了……[/red][gold]律动残余[/gold][red]都看不下去了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BEATING_REMNANT_COMPLAINT.2": "[shake][red]白费了。[/red][gold]律动残余[/gold][red]本可以护住你的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.IDLE.0": "[shake][red]……你倒是想得挺入神。等待，真是无聊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.1": "[shake][red]还没想好？我的时间无限，你的命可不是。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]你的手停下了。要我代劳么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]哈欠[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]想到满意为止吧，反正结局不会变。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]刚才那下，看着挺疼的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]这种攻击，可经不起多挨几次吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]哎呀……你没打算防一下么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]这想必，也是你自己招来的祸事。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]情况，是不是有些危险了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]你的脸色，不太好……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]就此倒下的话，未免太无趣了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]那敌人的架势……你接得住么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]这回合撑不过去，就是终局了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.2": "[shake][red]看仔细了。那家伙，正冲着你的命而来。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.0": "[shake][red]……你真打算，就这样结束回合？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.1": "[shake][red]就凭那点防御，你打算接下那一击？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_end.2": "[shake][red]亲手决定自己的结局……真是令人佩服。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]能量还有剩余，不打算用完么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]手上还有牌能打……你忘了么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]是打算省着用？可不怎么值得称赞。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]有必要，使出这么大的力气么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]这一击太过了。要不要考虑分配一下？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]那多余的力气，本可以用在别处的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]这一战，拖得可真久。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]还没完？我都开始觉得无聊了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]就不能再干脆利落一些么？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]哎呀，[/red][gold]音叉[/gold][red]的事，你还记得么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]音叉[/gold][red]干劲十足……\n那张牌，真有必要打么……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.2": "[shake][gold]音叉[/gold][red]一直很卖力的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.0": "[shake][red]唉，[/red][gold]星系尘埃[/gold][red]明明一直在为你效力……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.1": "[shake][gold]星系尘埃[/gold][red]……\n真是浪费。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GALACTIC_DUST_COMPLAINT.2": "[shake][gold]星系尘埃[/gold][red]，也请不要忘记它。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.0": "[shake][red]哎呀，[/red][gold]历石[/gold][red]，你忘了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.1": "[shake][gold]历石[/gold][red]本可以替你了结的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STONE_CALENDAR_COMPLAINT.2": "[shake][red]不必卖力，[/red][gold]历石[/gold][red]早就替你办妥了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.0": "[shake][red]这次，[/red][gold]佩尔之泪[/gold][red]看来要落空了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.1": "[shake][gold]佩尔之泪[/gold][red]，扑了个空。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.PAELS_TEARS_COMPLAINT.2": "[shake][gold]佩尔之泪[/gold][red]，下回合可就不会触发了？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.0": "[shake][gold]黄金印[/gold][red]，正为你的毫无计划而叹息。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.1": "[shake][red]连这点代价都付不起……\n真是令人无语……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SEAL_OF_GOLD_COMPLAINT.2": "[shake][gold]黄金印[/gold][red]，你也没能好好利用吧？[/red][/shake]\n[i][font_size=22][sine][red](笑声)[/red][/sine][/font_size][/i]",
+
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.0": "[shake][gold]格挡药水[/gold][red]在哭泣了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.1": "[shake][red]要挨这么多下，不正是[/red][gold]格挡药水[/gold][red]登场的时候么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_COMPLAINT.2": "[shake][gold]格挡药水[/gold][red]，存在就是为了被使用。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.0": "[shake][gold]固化药水[/gold][red]，本该能护住你的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.1": "[shake][red]若是翻上三倍，原也能挡下的……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_COMPLAINT.2": "[shake][gold]固化药水[/gold][red]，你打算什么时候用？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.0": "[shake][gold]镣铐药水[/gold][red]不用，也是毫无价值。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.1": "[shake][red]只要削减了力量，本不至于这么疼……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHACKLING_POTION_COMPLAINT.2": "[shake][red]疼成这样，我倒觉得，正是[/red][gold]镣铐药水[/gold][red]的用武之地……[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.0": "[shake][gold]火焰药水[/gold][red]这种东西，本该随手就用的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.1": "[shake][red]烧了那家伙的话，本可以减少些伤害的……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FIRE_POTION_COMPLAINT.2": "[shake][gold]火焰药水[/gold][red]，你打算何时用？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.0": "[shake][gold]药水形状的石头[/gold][red]，舍不得用又能怎样？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.1": "[shake][red]扔一块石头过去，伤害也能少挨一些……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POTION_SHAPED_ROCK_COMPLAINT.2": "[shake][gold]药水形状的石头[/gold][red]，用了或许能轻松一些？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.0": "[shake][gold]爆炸安瓿[/gold][red]，你其实也可以用的？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.1": "[shake][red]哪怕解决掉其中一个，也能少受不少伤害……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.EXPLOSIVE_AMPOULE_COMPLAINT.2": "[shake][red]这种时候若是有[/red][gold]爆炸安瓿[/gold][red]……\n哎呀？不就在你手上么。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.0": "[shake][red]若不是现在，[/red][gold]{Potion}[/gold][red]又要等到什么时候？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.1": "[shake][gold]{Potion}[/gold][red]，对你来说究竟有多珍贵？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BOSS_POTION_URGENCY.2": "[shake][gold]{Potion}[/gold][red]，你打算留到什么时候？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.0": "[shake][red]还需要更强的一击……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.1": "[shake][red]与你的身手，倒是相称。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.2": "[shake][red]你的攻击，就只有这点程度？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_ATTACK_CARD_FLAVOR.3": "[shake][red]不算差……\n要不要多付一点代价？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.0": "[shake][red]这一击，不错。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.1": "[shake][red]有意思。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.2": "[shake][red]一味蛮力，有时也自有其美。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_ATTACK_CARD_FLAVOR.3": "[shake][red]好声音。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.0": "[shake][red]精彩的一击。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.1": "[shake][red]呵呵，真想再多见些血。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.2": "[shake][red]把它彻底压制下去吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_ATTACK_CARD_FLAVOR.3": "[shake][red]强大的力量，总要伴随代价。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]小聪明总有用尽的一天。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]这种东西，你打算用到什么时候？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]这点手段，改变不了结局。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]这点准备，连自我安慰都算不上。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]没什么效果，倒是用得挺老实。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]手段挺机灵的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]安排得很巧妙。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]再付一些代价，我能让你更强。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]看来是花了心思的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]颇有一番心思。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]呵呵，好华丽的一手。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.2": "[shake][red]宏大的计划，自然需要周全的准备。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.3": "[shake][red]这份心思，可别白费了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.4": "[shake][red]这是单纯的蛮力，出不来的味道。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.0": "[shake][red]打算慢慢积累？不错的算盘。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.1": "[shake][red]布局这东西，不起眼却不容小觑。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.2": "[shake][red]一点一点地来，也别有一番意趣。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_POWER_CARD_FLAVOR.3": "[shake][red]眼下的应对，可不能松懈。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.0": "[shake][red]这也是一种契约。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.1": "[shake][red]这份力量，你能用得好么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.2": "[shake][red]看出胜机了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.3": "[shake][red]强大的力量，需要相应的觉悟。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RARE_POWER_CARD_FLAVOR.4": "[shake][red]用了挺有意思的力量。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.0": "[shake][red]真是不速之客。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.1": "[shake][red]摊上了个麻烦东西。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.STATUS_CARD_FLAVOR.2": "[shake][red]若能付出代价，我倒是能帮你处理。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.0": "[shake][red]手牌都空了，那能量要怎么用？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.1": "[shake][gold]能量药水[/gold][red]……没能派上用场，也怪可怜的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENERGY_POTION_MISUSE.2": "[shake][red]对着空手牌灌注力量，真是豪气。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.0": "[shake][red]手牌里连张能格挡的牌都没有，急什么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.1": "[shake][red]连防守的手段都没有……白跑一趟了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SPEED_POTION_MISUSE.2": "[shake][red]格挡都没得张，看来只是心急了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.0": "[shake][red]手牌里没有能输出的牌，要强化什么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.1": "[shake][red]连一击都打不出……力气倒是剩下了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FLEX_POTION_MISUSE.2": "[shake][red]那份力气，看来是没处使了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.0": "[shake][red]明明算不上什么威胁，为何要用它？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.1": "[shake][red]明明已经守得很好了，未免太心急。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOCK_POTION_MISUSE.2": "[shake][gold]格挡药水[/gold][red]登场的时机，本该在更后面。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.0": "[shake][red]也没什么大伤，要治什么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.1": "[shake][red]往满溢的器皿里倒，只会溢出来罢了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.BLOOD_POTION_MISUSE.2": "[shake][red]这种用法，未免太浪费了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.0": "[shake][red]手牌里，连一张能减费的牌都没有吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.1": "[shake][red]那你到底，想减轻哪张牌的费用？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.TOUCH_OF_INSANITY_MISUSE.2": "[shake][gold]癫狂之触[/gold][red]，只是白白挥霍了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.0": "[shake][red]就那点格挡，翻三倍又能怎样？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.1": "[shake][red]把小数字吹大……也没什么差别。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FORTIFIER_MISUSE.2": "[shake][red]就算翻了三倍，也不过是误差范围。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.0": "[shake][red]抽牌堆都快见底了，还想看什么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.1": "[shake][red]根本没什么可选的，白白浪费了好东西。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DROPLET_OF_PRECOGNITION_MISUSE.2": "[shake][red]这样一来……窥见未来也是白费了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.0": "[shake][red]这就抽到了……\n现在还用不了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.1": "[shake][red]就这么攥着不用……力量可不会自己醒来。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.POWER_CARD_DRAWN.2": "[shake][red]得等到抽牌堆转完一圈，干等着了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.0": "[shake][red]就这么消失，你确定不管？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.1": "[shake][red]错过这回合，可就再也用不了了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]虚无[/gold][red]，本就是转瞬即逝的……眼看着，就要消失了呢。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.0": "[shake][red]正需要格挡的时候，怎么才抽到？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.1": "[shake][red]早点抽到的话，本还来得及。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]抽到防御卡牌了，可惜似乎为时已晚。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.0": "[shake][gold]易伤[/gold][red]若是先上了，你的同伴本能打得更狠些？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.1": "[shake][red]那张能上[/red][gold]易伤[/gold][red]的牌，不先用真的好么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.2": "[shake][red]若是你行动得再快些，结果也许会不一样。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][gold]摧残[/gold][red]若是先上了，你的同伴本能打出更多伤害？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]那张能上[/red][gold]摧残[/gold][red]的牌，现在是犹豫的时候么？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]你在做什么？\n同伴已经先出手了。[/red][/shake]"
+}
