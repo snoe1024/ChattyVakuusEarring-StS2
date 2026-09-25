@@ -1,7 +1,10 @@
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Observer;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 using Godot;
+using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.Combat.History.Entries;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Models.Relics;
 
@@ -22,6 +25,12 @@ public sealed class WastedEnergyDetector : PlayDetector
 
     public override Utterance? Detect(PlayObserver observer, DetectorTrigger trigger)
     {
+        // パエルの眼がアクティブなら正当
+        if (observer.GetRelic<PaelsEye>()?.Status is RelicStatus.Active)
+        {
+            return null;
+        }
+        
         // エナジーが残っていて、手元にプレイできる0コストを超えたカードがある。
         if (observer.Energy < 1 || !observer.Hand.Any(card => card.CanPlay() && card.EnergyCost.GetResolved() > 0))
         {
@@ -40,6 +49,16 @@ public sealed class WastedEnergyDetector : PlayDetector
         if (!remainAttackCard && (damageAfterBlock <= 0 || canBlock <= 0))
         {
             return null;
+        }
+        
+        // 波紋の鉢を所持しており、まだアタックしたことがない
+        if (observer.HasRelic<RippleBasin>())
+        {
+            var owner = observer.Owner;
+            if (!CombatManager.Instance.History.Entries.OfType<CardPlayStartedEntry>().Select(x => x.CardPlay).Any(play => play.Player == owner && play.Card.Type is CardType.Attack))
+            {
+                return null;
+            }
         }
 
         LocString? line = SpeechTable.Pick(Topic);

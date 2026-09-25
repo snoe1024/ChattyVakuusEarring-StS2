@@ -3,7 +3,7 @@
   "name": "Chatty Vakuu's Earring",
   "author": "snoe1024",
   "description": "Vakuu will chime in on your gameplay.",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "min_game_version": "0.107.0",
   "has_pck": true,
   "has_dll": true,

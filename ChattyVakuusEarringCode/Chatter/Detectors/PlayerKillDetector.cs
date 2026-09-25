@@ -33,7 +33,7 @@ public sealed class PlayerKillDetector : PlayDetector
         return new Utterance
         {
             Line = line,
-            Probability = 0.2f,
+            Probability = 0.5f,
             Tags = new[] { UtteranceTag.Kill },
         };
     }

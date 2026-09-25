@@ -1,11 +1,12 @@
 using System.Linq;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
+using MegaCrit.Sts2.Core.Entities.Merchant;
 using MegaCrit.Sts2.Core.Localization;
 
 namespace ChattyVakuusEarring.ChattyVakuusEarringCode.ShopChatter.Detectors;
 
 /// <summary>
-/// あと少し(5ゴールド以下)のゴールドがあれば何か買えていたのに、ショップ画面を閉じた時の一言。
+/// あと少し(5ゴールド以下)のゴールドがあれば買えていたレリックがあったときに、ショップ画面を閉じた時の一言。
 /// </summary>
 public class ShopNearMissDetector : ShopDetector
 {
@@ -19,7 +20,7 @@ public class ShopNearMissDetector : ShopDetector
     public override Utterance? Detect(ShopObserver observer, ShopDetectorTrigger trigger)
     {
         int gap = observer.StockedEntries
-            .Where(e => !e.EnoughGold)
+            .Where(e => !e.EnoughGold && (e is MerchantRelicEntry or MerchantCardRemovalEntry))
             .Select(e => e.Cost - observer.Gold)
             .DefaultIfEmpty(int.MaxValue)
             .Min();
