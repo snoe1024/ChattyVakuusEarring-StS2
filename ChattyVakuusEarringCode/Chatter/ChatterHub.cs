@@ -69,6 +69,14 @@ internal static class ChatterHub
     }
 
     /// <summary>
+    /// 今、戦闘中でヴァクーの発言システムが動いている(=この端末のローカルプレイヤーが対象のセッションを持つ)か。
+    /// どのDetectorが実際に発言するかとは無関係な、大元の有効/無効だけの判定
+    /// (<see cref="Patch.ReturnToMainMenuSpeechPatch"/>が、個々のDetectorの条件に依存せず「セーブスカムの
+    /// 遅延を入れるべきか」を判断するために使う)。
+    /// </summary>
+    public static bool IsActive => Sessions.Count > 0;
+
+    /// <summary>
     /// バニラのイヤリングが締めの台詞を言おうとした(=ヴァクーの代打ちが終わった)ことを、
     /// 抑制パッチから伝えるための入口。
     /// </summary>
@@ -96,6 +104,21 @@ internal static class ChatterHub
             {
                 session.Observer.LastActivatedBlockRelic = relic;
                 session.Dispatch(DetectorTrigger.BlockRelicActivated);
+            }
+        });
+    }
+
+    /// <summary>
+    /// メインメニューへ戻る操作が確定したことを、<c>ReturnToMainMenuSpeechPatch</c>から伝えるための入口。
+    /// 戦闘が無い時は<see cref="Sessions"/>が空なので、何も起きない。
+    /// </summary>
+    public static void OnReturnedToMainMenu()
+    {
+        Guard(() =>
+        {
+            foreach (ChatterSession session in Sessions.ToList())
+            {
+                session.Dispatch(DetectorTrigger.ReturnedToMainMenu);
             }
         });
     }

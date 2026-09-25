@@ -80,15 +80,24 @@
   "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]手が止まっていますよ。私が代わりましょうか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]あくび[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]気が済むまで考えることです。結末は変わりませんから。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.5": "[shake][red]あなたに憑いて回るのにも飽きてきました。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.6": "[shake][red]私は最善の選択肢を知っています。知りたいですか？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.7": "[shake][red]そろそろあなたの答えを見せていただきたい。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.8": "[shake][red]悩んだところで、正解は増えませんよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.9": "[shake][red]随分とお悩みのようですねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]今のは痛そうでしたねぇ。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]そう何度も受けられるものではありませんよ？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]おや…防ぐつもりはなかったのですか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]これもあなたのもたらした災いなのでしょう。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.4": "[shake][red]良い苦悶の表情ですねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.5": "[shake][red]まだ立っていられるとは、しぶといですねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]そろそろ危ういのではありませんか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]顔色が優れませんねぇ…[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]ここで倒れられては、つまらないのですが。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.3": "[shake][red]この程度で放棄されては困ります。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.4": "[shake][red]まだ幕引きには早すぎますよ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]あの敵の構え…受け止めきれますか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]今ターンで凌がなければ、終わりですよ？[/red][/shake]",
@@ -100,14 +109,20 @@
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]エナジーが余っていますよ。使い切らないのですか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]まだ打てるカードがありますねぇ…お忘れですか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]節約のおつもりですか？ 感心しませんね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.3": "[shake][red]余らせたエナジーは、私が頂いても構いませんが。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.4": "[shake][red]勿体ぶるのは、あなたの悪い癖ですね。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]そこまで力を込める必要があったのですか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]過剰な一撃ですねぇ。もう少し配分を考えては？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]その余った力、他に回せたでしょうに。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.3": "[shake][red]見事な一撃…ですが、少々もったいないですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.4": "[shake][red]過分な攻撃ですが、お見事です。その調子ですよ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]随分と長引いていますねぇ。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]まだ終わらないのですか？ 退屈になってきました。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]もう少し手際よくできないものでしょうか。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.3": "[shake][red]この程度の相手に、随分と手こずるものですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.4": "[shake][red]見世物としては、少々退屈になってきましたよ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]おや、[/red][gold]音叉[/gold][red]のことは覚えていましたか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]音叉[/gold][red]が張り切っていますが…\nあのカード、必要でしたかねぇ…[/red][/shake]",
@@ -175,13 +190,14 @@
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]小手先の技では、いずれ限界が来ますよ。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]いつまでこんなものを使っているつもりですか？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]こんなもので結末は変わりませんよ。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]その程度の備え、気休めにもなりませんね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]この程度では気休めにもなりませんが…[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]大した効果もないのに、律儀に使うものですね。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]小賢しい手ですねぇ。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]器用な手筈です。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]さらに対価を支払えば、あなたをより強くしてあげられます。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]工夫はしているようですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.4": "[shake][red]あなたがその手に頼るのも見飽きました。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]なかなかの工夫です。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]ふふ、派手な一手ですねぇ。[/red][/shake]",
@@ -242,11 +258,11 @@
 
   "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.0": "[shake][red]使えぬまま消えてしまいますが、よろしいので？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.1": "[shake][red]このターンを逃せば、二度と使えなかったでしょうに。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]エセリアル[/gold][red]は儚いもの…見過ごせば消えるだけです。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ETHEREAL_CARD_DRAWN.2": "[shake][gold]エセリアル[/gold][red]は儚いもの…このまま消えてしまいますねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.0": "[shake][red]ブロックが要る時に、なぜ今頃引くのです？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.1": "[shake][red]もっと早く引いていれば、間に合ったでしょうに。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]防御スキルを引いていますが、手遅れのようですねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.NEEDED_BLOCK_CARD_DRAWN.2": "[shake][red]防御カードを引いていますが、手遅れのようですねぇ。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.0": "[shake][gold]弱体[/gold][red]を先に付けてあげれば、お友達はもっと強く出れましたね？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.VULNERABLE_FOR_FRIEND.1": "[shake][red]その[/red][gold]弱体[/gold][red]を付けられるカード、先に使わなくてよかったのですか？[/red][/shake]",
@@ -254,5 +270,69 @@
 
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][gold]衰弱[/gold][red]を先に付けてあげれば、お友達はもっとダメージを出せましたね？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]その[/red][gold]衰弱[/gold][red]を付けられるカード、出し渋っている場合ですか？[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]何をしているんです？お友達が先にアタックしてしまいましたよ。[/red][/shake]"
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]何をしているんです？\nお友達が先にアタックしてしまいましたよ。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.0": "[shake][red]やり直せば、なかったことになるとでも？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.1": "[shake][red]何度やり直しても結末は変わりませんよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.2": "[shake][red]私はあなたのその行動を覚えています。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.3": "[shake][red]結末が気に入らないだけで、逃げ出すのですか。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.4": "[shake][red]往生際の悪いことです。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.0": "[shake][red]あなたのことを待っていたようですよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.1": "[shake][red]対価を求める方がここにもいるようですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.2": "[shake][red]さて、散財の時間ですねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.3": "[shake][red]あなたの取り引きを見せていただきましょうか。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.0": "[shake][red]その懐で、何を買うおつもりです？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.1": "[shake][red]冷やかしにいらしたようで。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.2": "[shake][red]財布が寂しいようで…お気の毒に。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.3": "[shake][red]見るだけの入室とは、虚しいものですねぇ。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.0": "[shake][red]このパラソルが輝くときが来たようですね？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.1": "[shake][red]さあ、遠慮なく召し上げてしまいましょう。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.2": "[shake][red]選ぶ必要はありません。全て頂いてしまいますから。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.3": "[shake][red]契約の時間です。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.4": "[shake][red]私が全て買ってあげましょう。これもあなたのためですよ。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.0": "[shake][red]他人の契約を詳しく覗くようなことはいたしませんよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.1": "[shake][red]これも商人の契約というものなのでしょう。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.2": "[shake][red]あなたにとっては価値があるのでしょうね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.3": "[shake][red]どんなものでも使えなければ無価値です。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.0": "[shake][red]商人さんの悲鳴が聞こえてくるようでしたねぇ…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.1": "[shake][red]デッキが重くなりましたねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.2": "[shake][red]さて、この力をどう振る舞うのか…見物ですねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.3": "[shake][red]これが契約です。あなたも納得して選ばれたはずですよね？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.4": "[shake][red]また商人へ寄っても良いのですよ？契約は遵守しますのでね。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.0": "[shake][red]何も選ばないとは…ずいぶん慎重なことです。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.1": "[shake][red]節約家でいらっしゃる。つまらないですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.2": "[shake][red]そのゴールド、墓場まで持っていくおつもりで？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.3": "[shake][red]貯め込むばかりで、退屈ですねぇ。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.0": "[shake][red]あと少しで買えたものがありましたねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.1": "[shake][red]たった数枚の差で逃したものがあるようで。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.2": "[shake][red]いくら後悔してもあなたの道筋は変わりませんよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.3": "[shake][red]新たな契約をお望みですか？高くつきますよ。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.0": "[shake][red]すっからかんではありませんか。豪快なことです。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.1": "[shake][red]後先を考えない散財、嫌いではありませんよ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.2": "[shake][red]迷いなく注ぎ込む…その潔さは認めましょう。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.3": "[shake][red]見事な空っぽですね。悔いはなさそうで。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]何一つ、買えませんでしたねぇ。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]分かり切っていたことでしょう。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]見るだけで満足するとは…贅沢な趣味ですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]そのお財布事情…見ていて飽きませんね。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]まだ迷っていらっしゃるので？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]そろそろ、次へ向かいましょうか。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]あくび[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]いつまで決めかねているのです？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]この方の正体は私にも分からないのです。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]決められないなら、私が代わりに契約を結びます。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]決断力も、対価を払えば授けられるのですがね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]この静寂、あなたの決断力を表しているようで。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]見世物にもならないとは、寂しいものですね。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]決めかねているなら、私が選んで差し上げましょうか？[/red][/shake]"
 }

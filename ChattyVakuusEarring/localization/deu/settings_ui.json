@@ -1,0 +1,6 @@
+{
+  "CHATTYVAKUUSEARRING.mod_title": "Vakuus geschwätzige Ohrringe",
+
+  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.title": "Flüstern auch ohne die Ohrringe erlauben",
+  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.hover.desc": "Aktiviert Vakuus Flüster-System auch ohne die Flüsternden Ohrringe. Die Effekte des Relikts und die dadurch ausgelösten Dialoge treten dabei nicht ein."
+}
