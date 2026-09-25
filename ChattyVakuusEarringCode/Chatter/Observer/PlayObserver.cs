@@ -14,6 +14,7 @@ using MegaCrit.Sts2.Core.Models.Relics;
 using MegaCrit.Sts2.Core.MonsterMoves.Intents;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Combat.History;
+using MegaCrit.Sts2.Core.Saves;
 
 namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Observer;
 
@@ -77,8 +78,20 @@ public sealed class PlayObserver
 
     public int MaxHp => OwnerCreature.MaxHp;
 
+    /// <summary>この戦闘の「エンカウント」定義そのもの(通常戦の個々のモンスターとは別に、エリート・ボス等
+    /// 複数体で構成されうる戦闘全体を指す単位)。不明ならnull。</summary>
+    public EncounterModel? Encounter => _combatState.Encounter;
+
     /// <summary>この戦闘の種類(通常・エリート・ボス)。不明ならnull。</summary>
-    public RoomType? EncounterRoomType => _combatState.Encounter?.RoomType;
+    public RoomType? EncounterRoomType => Encounter?.RoomType;
+
+    /// <summary>
+    /// この<see cref="Encounter"/>についての、モンスター図鑑と同じ勝敗記録(<c>SaveManager.Progress.EncounterStats</c>、
+    /// キャラクター別の内訳付き)。本家が戦闘終了のたびに増分更新している記録をそのまま参照するだけなので、
+    /// プレイ履歴を毎回全走査するような重い処理ではない。一度も記録が無ければnull。
+    /// </summary>
+    public EncounterStats? GetEncounterStats() =>
+        Encounter is { } encounter ? SaveManager.Instance.Progress.EncounterStats.GetValueOrDefault(encounter.Id) : null;
 
     /// <summary>手札に、今プレイできるカード(エナジーが足りる・使用不能でない)があるか。</summary>
     public bool HasPlayableCardInHand() => Hand.Any(card => card.CanPlay());
@@ -175,6 +188,12 @@ public sealed class PlayObserver
     /// (最初のターン開始時の配札は含まない)。それ以外のトリガーでは古い値かnullなので参照しないこと。
     /// </summary>
     public CardModel? LastDrawnCard { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.CardPlayStarted"/>で呼ばれた時の、直前にプレイが開始されたカード
+    /// (自動プレイも含む)。それ以外のトリガーでは古い値かnullなので参照しないこと。
+    /// </summary>
+    public CardPlay? LastCardPlayStarted { get; internal set; }
 
     /// <summary>直前の撃破が、持ち主本人によるものか。</summary>
     public bool LastKillWasByOwner => LastKiller == Owner;

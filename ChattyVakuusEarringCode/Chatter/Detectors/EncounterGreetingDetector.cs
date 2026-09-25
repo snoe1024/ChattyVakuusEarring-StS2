@@ -1,59 +1,54 @@
+using System.Linq;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Observer;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
-using System.Linq;
 using MegaCrit.Sts2.Core.Entities.Creatures;
-using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Localization;
+using MegaCrit.Sts2.Core.Models.Powers;
+using MegaCrit.Sts2.Core.Models.Relics;
+using MegaCrit.Sts2.Core.Rooms;
 
 namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Detectors;
 
 /// <summary>
-/// エリートやボスとの戦闘開始時に、相手の名前を挙げて言う。
+/// 戦闘開始時に、相手の名前を挙げて一言(通常・エリート・ボスの三種)。
 /// </summary>
 /// <remarks>
-/// <para>
-/// 初ターンはヴァクーが操作するのにまるで傍観してるみたいな台詞を言うのがやや微妙だったので一旦コメントアウト。
-/// </para>
+/// 元々は<c>VakuuTurnStarted</c>(手札が配られ、ヴァクーの代打ちが始まる直前)で発火させていたが、
+/// ヴァクー自身が操作するターンなのに傍観者のような台詞になって微妙だったため、一旦コメントアウトしていた。
+/// 囁きのイヤリングを所持していなくても囁く機能が公式になったため再有効化した。通常戦は頻度が高いので確率を抑えてある。
 /// </remarks>
-/**
- * jpn/relics.json
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.0": "[shake][red]おや、[/red][gold]{Enemy}[/gold][red]ですか。手強そうですねぇ。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.1": "[shake][gold]{Enemy}[/gold][red]…あなたに務まりますかねぇ？[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.0": "[shake][red]ほう、[/red][gold]{Enemy}[/gold][red]…ここが正念場ですよ。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.1": "[shake][gold]{Enemy}[/gold][red]が相手とは…見物ですねぇ。[/red][/shake]"
- */
-/**
- * eng/relics.json
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.0": "[shake][red]Oh, [/red][gold]{Enemy}[/gold][red]. Rather formidable, is it not?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.1": "[shake][gold]{Enemy}[/gold][red]... do you suppose you are equal to it?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.0": "[shake][red]Ah, [/red][gold]{Enemy}[/gold][red]... this is the moment that matters.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.1": "[shake][red]Facing [/red][gold]{Enemy}[/gold][red]... this should be worth watching.[/red][/shake]"
- */
-/*
 public sealed class EncounterGreetingDetector : PlayDetector
 {
     private const string Topic = "ENCOUNTER_GREETING";
 
     private const int GreetingPriority = 5;
 
-    public override DetectorTrigger Triggers => DetectorTrigger.VakuuTurnStarted;
+    public override DetectorTrigger Triggers => DetectorTrigger.PlayerTurnStarted;
+
+    public override bool ShouldActivate(PlayObserver observer) => observer.HasRelic<WhisperingEarring>();
 
     public override Utterance? Detect(PlayObserver observer, DetectorTrigger trigger)
     {
-        string? kind = observer.EncounterRoomType switch
-        {
-            RoomType.Elite => "elite",
-            RoomType.Boss => "boss",
-            _ => null,
-        };
-
-        Creature? enemy = observer.LivingEnemies.FirstOrDefault(e => e.Monster != null);
-        if (kind == null || enemy == null)
+        if (!observer.IsFirstTurn)
         {
             return null;
         }
 
-        LocString? line = SpeechTable.Pick(Topic, kind);
+        (string Kind, float Probability)? info = observer.EncounterRoomType switch
+        {
+            RoomType.Monster => ("monster", 0.25f),
+            RoomType.Elite => ("elite", 0.6f),
+            RoomType.Boss => ("boss", 0.65f),
+            _ => null,
+        };
+
+        Creature? enemy = observer.LivingEnemies.FirstOrDefault(e => !e.HasPower<MinionPower>() && e.Monster != null);
+        if (info == null || enemy == null)
+        {
+            return null;
+        }
+
+        LocString? line = SpeechTable.Pick(Topic, info.Value.Kind);
         if (line == null)
         {
             return null;
@@ -63,10 +58,9 @@ public sealed class EncounterGreetingDetector : PlayDetector
         return new Utterance
         {
             Line = line,
-            Probability = 0.6f,
+            Probability = info.Value.Probability,
             Priority = GreetingPriority,
             Tags = new[] { UtteranceTag.Encounter },
         };
     }
 }
-*/

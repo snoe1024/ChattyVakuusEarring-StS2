@@ -52,8 +52,8 @@ internal static class ShopChatterHub
             return;
         }
 
-        // デバッグ設定がオンの間は、レリックを持っていなくても発言システムを有効にする(戦闘中と同じ規則)。
-        if (me.GetRelic<WhisperingEarring>() == null && !ChattyVakuusEarringConfig.DebugForceChatterWithoutEarring)
+        // 設定がオンの間は、レリックを持っていなくても発言システムを有効にする(戦闘中と同じ規則)。
+        if (me.GetRelic<WhisperingEarring>() == null && !ChattyVakuusEarringConfig.AllowWhisperingWithoutEarring)
         {
             return;
         }

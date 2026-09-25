@@ -51,4 +51,7 @@ public enum UtteranceTag
 
     /// <summary>ショップ(商人の部屋)での出来事についての一言。</summary>
     Shop,
+
+    /// <summary>プレイのペース(早指し等)についての指摘。</summary>
+    Pace,
 }

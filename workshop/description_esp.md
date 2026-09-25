@@ -2,7 +2,7 @@
 
 [b]Vakuu observa todo lo que haces y no deja de susurrar al respecto.[/b]
 Instala este mod, consigue los Pendientes susurrantes y Vakuu no dejará de meterse en tus jugadas. Señala tus pequeños errores, se ríe de tu mala suerte y llora por las reliquias que olvidaste que tenías.
-Más de 200 líneas de diálogo en total.
+Más de 300 líneas de diálogo en total.
 Un ajuste del mod también permite que Vakuu te acompañe desde el principio, incluso sin los Pendientes susurrantes.
 
 [b]Compatibilidad de ramas[/b]

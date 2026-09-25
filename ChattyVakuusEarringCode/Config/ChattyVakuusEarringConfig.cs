@@ -16,10 +16,11 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
 public sealed class ChattyVakuusEarringConfig : SimpleModConfig
 {
     /// <summary>
-    /// デバッグ用: 囁きのイヤリングを持っていなくても、ヴァクーの発言システム(ChatterSession)を有効にする。
+    /// 囁きのイヤリングを持っていなくても、ヴァクーの発言システム(ChatterSession)を有効にする。
     /// バニラの囁きのイヤリング自身の代打ち処理はそのままなので、これをオンにしても代打ちは起きない
     /// (代打ちに関わる発言 = FirstTurnReviewDetector/VakuuKillDetectorは発動しない)。それ以外の
-    /// Detector(手札評価・ダメージ/ブロック関連の小言等)を、レリックを引かずに毎回試したい時に使う。
+    /// Detector(手札評価・ダメージ/ブロック関連の小言、戦闘開始時の一言等)を、レリックを引く前から
+    /// 試したいプレイヤー向けの設定。
     /// </summary>
-    public static bool DebugForceChatterWithoutEarring { get; set; }
+    public static bool AllowWhisperingWithoutEarring { get; set; }
 }

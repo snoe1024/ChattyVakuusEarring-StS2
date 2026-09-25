@@ -1,6 +1,6 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "瓦庫的話癆耳環",
 
-  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.title": "允許在沒有耳環時也低語",
-  "CHATTYVAKUUSEARRING-DEBUG_FORCE_CHATTER_WITHOUT_EARRING.hover.desc": "即使沒有低語耳環，也會啟用瓦庫的低語系統。遺物的效果及由此觸發的台詞不會發生。"
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "允許在沒有耳環時也低語",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使沒有低語耳環，也會啟用瓦庫的低語系統。遺物的效果及由此觸發的台詞不會發生。"
 }

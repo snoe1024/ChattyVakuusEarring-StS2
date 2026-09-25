@@ -140,11 +140,11 @@ internal static class ChatterHub
                 continue;
             }
 
-            // デバッグ設定がオンの間は、レリックを持っていなくても発言システムを有効にする。ただしバニラの
+            // 設定がオンの間は、レリックを持っていなくても発言システムを有効にする。ただしバニラの
             // 囁きのイヤリング自身の代打ち処理には一切手を入れていないので、代打ちに関わる発言
             // (FirstTurnReviewDetector/VakuuKillDetector、VanillaEarringSpeechPatch経由のもの)は
             // レリックを実際に持っていない限り発火しない。
-            if (player.GetRelic<WhisperingEarring>() != null || ChattyVakuusEarringConfig.DebugForceChatterWithoutEarring)
+            if (player.GetRelic<WhisperingEarring>() != null || ChattyVakuusEarringConfig.AllowWhisperingWithoutEarring)
             {
                 Sessions.Add(new ChatterSession(player, state));
             }
@@ -230,6 +230,18 @@ internal static class ChatterHub
         {
             switch (entry)
             {
+                // 早指し判定等、ボタンを押した瞬間の間隔を見たいDetector向け(自動プレイも含めて渡す。
+                // 除外は購読側でLastCardPlayStarted.IsAutoPlayを見て行う)。自分以外(マルチプレイの仲間)の分は
+                // 渡さない(プレイのペースは各プレイヤー自身の話なので)。
+                case CardPlayStartedEntry started:
+                    foreach (ChatterSession session in Sessions.Where(s => s.Owner == started.CardPlay.Card.Owner).ToList())
+                    {
+                        session.Observer.LastCardPlayStarted = started.CardPlay;
+                        session.Dispatch(DetectorTrigger.CardPlayStarted);
+                    }
+
+                    break;
+
                 // 自動プレイ(ヴァクーの代打ち等)は「プレイヤーのプレイスタイル」ではないので対象外。
                 case CardPlayFinishedEntry { CardPlay.IsAutoPlay: false } played:
                     foreach (ChatterSession session in Sessions)

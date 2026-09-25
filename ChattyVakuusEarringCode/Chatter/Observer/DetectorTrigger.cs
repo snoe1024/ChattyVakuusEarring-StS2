@@ -110,4 +110,13 @@ public enum DetectorTrigger
     /// (不利な展開になった時に保存だけしてメインメニューへ戻り、後で読み込み直して乱数を引き直す行為)に使われうる。
     /// </summary>
     ReturnedToMainMenu = 1 << 13,
+
+    /// <summary>
+    /// 持ち主が手動でカードのプレイを開始した瞬間(<c>CardPlayFinishedEntry</c>ではなく<c>CardPlayStartedEntry</c>)。
+    /// 演出を挟む<see cref="CardPlayed"/>と違い、実際にボタンを押した瞬間の間隔を計測したい判定
+    /// (早指しの検出等)で使う。自動プレイ(ヴァクーの代打ち等)も含めて発火するので、対象外にしたい場合は
+    /// <c>PlayObserver.LastCardPlayStarted?.IsAutoPlay</c>で見分ける。プレイしたカードは
+    /// <c>PlayObserver.LastCardPlayStarted</c>に入る。
+    /// </summary>
+    CardPlayStarted = 1 << 14,
 }
