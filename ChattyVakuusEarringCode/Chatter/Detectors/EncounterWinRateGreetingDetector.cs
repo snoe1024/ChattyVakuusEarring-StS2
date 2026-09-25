@@ -48,7 +48,7 @@ public sealed class EncounterWinRateGreetingDetector : PlayDetector
 
     public override DetectorTrigger Triggers => DetectorTrigger.PlayerTurnStarted;
 
-    public override bool ShouldActivate(PlayObserver observer) => observer.HasRelic<WhisperingEarring>();
+    public override bool ShouldActivate(PlayObserver observer) => !observer.HasRelic<WhisperingEarring>();
 
     public override Utterance? Detect(PlayObserver observer, DetectorTrigger trigger)
     {
