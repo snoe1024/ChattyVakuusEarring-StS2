@@ -27,14 +27,26 @@ public sealed class VakuuSpeaker
     /// <summary>同じ台詞の再発言を避けるために覚えておく、直近の発言数。</summary>
     private const int RepeatMemory = 6;
 
-    private readonly Creature _voice;
+    private readonly Func<Utterance, bool> _emit;
 
     private readonly List<SpokenRecord> _recent = new();
 
-    /// <summary>ヴァクーが喋る吹き出しの出所となるクリーチャー(=囁きのイヤリングの持ち主)。</summary>
+    /// <summary>ヴァクーが喋る吹き出しの出所となるクリーチャー(=囁きのイヤリングの持ち主)。戦闘中に使う。</summary>
     public VakuuSpeaker(Creature voice)
+        : this(utterance => TalkCmd.Play(utterance.Line, voice, VfxColor.Purple) != null)
     {
-        _voice = voice;
+    }
+
+    /// <summary>
+    /// 発言の中身(<see cref="Utterance"/>)を、実際にどう表示するか(吹き出しをどこにどう出すか)を渡す版。
+    /// 喋る/黙るの判断(このクラスの本分)は共通で、表示方法だけを差し替えたい場面向け
+    /// (例: <c>ShopChatter.ShopVakuuBubble.TryShow</c> — ショップでは<c>Creature</c>基準の
+    /// <c>TalkCmd.Play</c>が使えないため、座標基準の吹き出し表示に差し替える)。
+    /// </summary>
+    /// <param name="emit">発言を表示する処理。実際に表示できたらtrueを返すこと。</param>
+    public VakuuSpeaker(Func<Utterance, bool> emit)
+    {
+        _emit = emit;
     }
 
     /// <summary>
@@ -108,8 +120,7 @@ public sealed class VakuuSpeaker
         IsEmitting = true;
         try
         {
-            // 色は本家の囁きのイヤリングに合わせる。台詞の装飾([red]/[shake]等)はローカライゼーション側にある。
-            return TalkCmd.Play(utterance.Line, _voice, VfxColor.Purple) != null;
+            return _emit(utterance);
         }
         finally
         {

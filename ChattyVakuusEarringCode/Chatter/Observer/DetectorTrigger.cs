@@ -91,7 +91,23 @@ public enum DetectorTrigger
     CardDrawn = 1 << 11,
 
     /// <summary>
-    /// 
+    ///
     /// </summary>
     FriendCardPlayed = 1 << 12,
+
+    /// <summary>
+    /// 戦闘中にプレイヤーがメインメニューへ戻る操作(ポーズメニューの「あきらめる」→確認ポップアップの「はい」、
+    /// または「保存して終了」)を確定させた瞬間。<see cref="Patch.ReturnToMainMenuSpeechPatch"/>が
+    /// <c>NGame.ReturnToMainMenu()</c>をHarmonyで捉えて<c>ChatterHub.OnReturnedToMainMenu</c>経由で届ける。
+    /// この本家メソッドは最初の行が<c>await Transition.FadeOut()</c>(暗転)なので、Prefixで捕まえた時点では
+    /// 暗転すら始まっておらず、戦闘画面がそのまま表示されている(通常通り吹き出しを出せる)。
+    /// <c>RunManager.Abandon()</c>(「あきらめる」)自体をパッチしなかったのは、あちらは片付けを
+    /// <c>TaskHelper.RunSafely</c>で非同期にキックするだけの薄いラッパーで、実際の暗転(<c>ReturnToMainMenu</c>)は
+    /// 「保存して終了」を含む全てのメインメニュー行きの経路が最終的に通る共通の合流点であるため
+    /// (最初の実装でここを間違えて<c>Abandon</c>側を直接パッチし、「保存して終了」経由(=本来のセーブスカム手順。
+    /// あきらめるはセーブを消すのでスカムに使えない)で発火しない不具合になった)。
+    /// 本家の乱数は全て決定論的な擬似乱数なので、この操作はいわゆる「セーブスカム」
+    /// (不利な展開になった時に保存だけしてメインメニューへ戻り、後で読み込み直して乱数を引き直す行為)に使われうる。
+    /// </summary>
+    ReturnedToMainMenu = 1 << 13,
 }

@@ -48,4 +48,7 @@ public enum UtteranceTag
     
     /// <summary>フレンドとの協力行為に関する指摘</summary>
     Cooperation,
+
+    /// <summary>ショップ(商人の部屋)での出来事についての一言。</summary>
+    Shop,
 }

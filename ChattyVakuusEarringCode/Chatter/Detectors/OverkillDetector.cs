@@ -32,6 +32,12 @@ public sealed class OverkillDetector : PlayDetector
         {
             return null;
         }
+
+        // これが最後の敵だったら別にオーバーキルしてもよさそう
+        if (!observer.LivingEnemies.Any())
+        {
+            return null;
+        }
         
         if (observer.LastKilledEnemy is null || observer.LastKilledEnemy.HasPower<MinionPower>() ||
             observer.LastKillOverkillDamage < observer.LastKilledEnemy.MaxHp * OverkillRatio ||

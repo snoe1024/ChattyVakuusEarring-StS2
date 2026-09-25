@@ -3,6 +3,7 @@ using System.Reflection;
 using BaseLib.Config;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
+using ChattyVakuusEarring.ChattyVakuusEarringCode.ShopChatter;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Modding;
@@ -47,5 +48,6 @@ public partial class MainFile : Node
         }
 
         ChatterHub.Initialize();
+        ShopChatterHub.Initialize();
     }
 }
