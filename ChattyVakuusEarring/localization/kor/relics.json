@@ -80,15 +80,24 @@
   "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]손이 멈췄군. 내가 대신할까?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]하품[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]실컷 생각해 봐. 결말은 바뀌지 않으니까.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.5": "[shake][red]네게 붙어 다니는 것도 지겨워지는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.6": "[shake][red]최선의 수는 내가 알고 있지. 궁금한가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.7": "[shake][red]슬슬 네 답을 보여줬으면 하는데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.8": "[shake][red]고민해 봤자, 정답이 늘어나진 않아.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.9": "[shake][red]꽤나 고민이 깊은 모양이군.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]방금 건 아파 보이던데.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]그렇게 여러 번 버틸 수 있는 게 아닐 텐데?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]이런... 막을 생각이 없었나?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]이것도 네가 자초한 재앙이겠지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.4": "[shake][red]제법 괴로운 표정이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.5": "[shake][red]아직 서 있다니, 질기기도 하군.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]슬슬 위험한 거 아닌가?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]안색이 영 좋지 않군...[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]여기서 쓰러지면 재미없는데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.3": "[shake][red]이 정도로 포기하면 곤란한데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.4": "[shake][red]아직 막을 내리기엔 이르지.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]저 적의 자세... 받아낼 수 있겠나?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]이번 턴을 못 버티면 끝이야.[/red][/shake]",
@@ -100,14 +109,20 @@
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]에너지가 남았군. 다 쓰지 않을 텐가?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]아직 낼 수 있는 카드가 있는데... 잊었나?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]아껴둘 생각인가? 감탄스럽진 않군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.3": "[shake][red]남은 에너지, 내가 대신 가져가도 상관없는데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.4": "[shake][red]괜히 뜸 들이는 건 네 나쁜 버릇이군.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]그렇게까지 힘을 실을 필요가 있었나?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]과한 일격이군. 좀 더 배분을 생각해 보는 게 어때?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]그 남은 힘, 다른 데 썼으면 좋았을 텐데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.3": "[shake][red]훌륭한 일격이군... 다만 좀 아깝군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.4": "[shake][red]과한 공격이지만, 제법이군. 그 기세야.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]제법 길어지는군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]아직도 안 끝났나? 슬슬 지루해지는데.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]좀 더 능숙하게 할 순 없나?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.3": "[shake][red]이 정도 상대에게 꽤나 애먹는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.4": "[shake][red]구경거리로는 좀 지루해지는데.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]이런, [/red][gold]소리굽쇠[/gold][red]는 기억하고 있었나?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]소리굽쇠[/gold][red]가 잔뜩 벼르고 있는데...\n그 카드, 정말 필요했나...[/red][/shake]",
@@ -175,13 +190,14 @@
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]잔재주로는 언젠가 한계가 오는 법이지.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]이런 걸 언제까지 쓸 생각이지?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]이런 걸로는 결말이 바뀌지 않아.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]그 정도 대비는 위안도 안 되는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]이 정도로는 위안도 안 되는데...[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]별 효과도 없는데, 꼬박꼬박 쓰는군.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]제법 약삭빠른 수로군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]손놀림이 야무지군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]대가를 더 치르면, 너를 더 강하게 만들어줄 수 있지.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]머리는 좀 쓰고 있나 보군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.4": "[shake][red]그 수에 기대는 것도 이제 질리는군.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]제법 궁리했군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]후, 화려한 수로군.[/red][/shake]",
@@ -254,5 +270,69 @@
 
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][gold]쇠락[/gold][red]을 먼저 걸어줬다면, 친구가 더 큰 피해를 줄 수 있었을 텐데?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]그 [/red][gold]쇠락[/gold][red]을 걸 카드, 아껴둘 때가 아니지 않나?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]뭐 하는 거지?\n친구가 먼저 공격해 버렸잖아.[/red][/shake]"
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]뭐 하는 거지?\n친구가 먼저 공격해 버렸잖아.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.0": "[shake][red]다시 해봤자, 없던 일이 될 것 같나?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.1": "[shake][red]몇 번을 다시 해도 결말은 바뀌지 않아.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.2": "[shake][red]네가 한 그 행동, 나는 기억하고 있지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.3": "[shake][red]결말이 마음에 안 든다고, 도망치는 건가.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.4": "[shake][red]깨끗이 물러설 줄을 모르는군.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.0": "[shake][red]너를 기다리고 있었던 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.1": "[shake][red]여기도 대가를 요구하는 자가 있는 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.2": "[shake][red]자, 돈을 낭비할 시간이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.3": "[shake][red]네 거래를 좀 구경해 볼까.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.0": "[shake][red]그 주머니 사정으로 뭘 사겠다는 거지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.1": "[shake][red]구경만 하러 온 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.2": "[shake][red]지갑이 텅 빈 모양이군... 딱하기도 하지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.3": "[shake][red]보기만 하는 입장이라니, 허망하군.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.0": "[shake][red]이 양산이 빛을 발할 때가 온 모양이군?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.1": "[shake][red]자, 거리낌 없이 몽땅 거둬버리지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.2": "[shake][red]고를 필요 없어. 전부 가져갈 테니까.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.3": "[shake][red]계약의 시간이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.4": "[shake][red]내가 전부 사주지. 이것도 다 널 위한 거야.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.0": "[shake][red]남의 계약을 시시콜콜 들여다보진 않지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.1": "[shake][red]이것도 상인과의 계약이라는 거겠지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.2": "[shake][red]너한테는 가치가 있는 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.3": "[shake][red]뭐든 쓰지 않으면 무가치하지.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.0": "[shake][red]상인의 비명이 들려오는 것 같았지...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.1": "[shake][red]덱이 묵직해졌군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.2": "[shake][red]자, 이 힘을 어떻게 다룰지... 구경거리로군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.3": "[shake][red]이게 계약이야. 너도 납득하고 고른 거겠지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.4": "[shake][red]또 상인에게 들러도 좋아. 계약은 지킬 테니까.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.0": "[shake][red]아무것도 고르지 않다니... 꽤나 신중하군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.1": "[shake][red]절약가로군. 재미없어.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.2": "[shake][red]그 골드, 무덤까지 가져갈 셈인가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.3": "[shake][red]쌓아두기만 하다니, 지루하군.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.0": "[shake][red]조금만 더 있었으면 살 수 있었던 게 있었지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.1": "[shake][red]단 몇 닢 차이로 놓친 게 있는 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.2": "[shake][red]아무리 후회해 봤자 네 길은 바뀌지 않아.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.3": "[shake][red]새로운 계약을 원하나? 값은 톡톡히 치러야 할 텐데.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.0": "[shake][red]완전히 빈털터리로군. 화끈하기도 하지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.1": "[shake][red]앞뒤 안 가리는 낭비, 싫지 않군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.2": "[shake][red]망설임 없이 쏟아붓다니... 그 결단력은 인정하지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.3": "[shake][red]제법 깔끔하게 비었군. 미련은 없는 모양이고.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]결국 하나도 못 샀군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]뻔히 알고 있던 일이었지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]보는 것만으로 만족하다니... 호사스러운 취미로군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]그 주머니 사정, 볼 때마다 질리지가 않는군.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]아직도 망설이는 건가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]슬슬 다음으로 넘어갈까.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]하품[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]언제까지 정하지 못하고 있을 셈이지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]이 자의 정체는 나도 모르지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]정하지 못하겠다면, 내가 대신 계약을 맺어주지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]결단력도, 대가를 치르면 줄 수 있는데 말이지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]이 정적, 네 결단력을 보여주는 것 같군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]구경거리도 못 되다니, 쓸쓸하군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]정하지 못하겠다면, 내가 대신 골라줄까?[/red][/shake]"
 }

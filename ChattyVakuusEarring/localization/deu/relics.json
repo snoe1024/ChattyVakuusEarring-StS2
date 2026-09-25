@@ -80,15 +80,24 @@
   "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]Deine Hand ruht. Soll ich für dich übernehmen?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]Gähn[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]Denk, solange du willst. Das Ende bleibt gleich.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.5": "[shake][red]Dir ständig zu folgen, ödet mich langsam an.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.6": "[shake][red]Ich kenne die beste Wahl. Willst du sie hören?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.7": "[shake][red]Zeig mir endlich deine Antwort.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.8": "[shake][red]Grübeln bringt dich keiner Antwort näher.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.9": "[shake][red]Du grübelst aber lange.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]Das sah schmerzhaft aus.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]So oft kannst du das nicht einstecken, oder?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]Oh… wolltest du das nicht abwehren?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]Auch das ist wohl dein eigenes Unglück.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.4": "[shake][red]Ein hübscher Ausdruck von Qual.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.5": "[shake][red]Noch stehst du? Zäh von dir.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]Wird es nicht langsam gefährlich?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]Du siehst blass aus…[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]Fällst du hier, wäre das enttäuschend.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.3": "[shake][red]Schon jetzt aufzugeben, käme mir ungelegen.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.4": "[shake][red]Für den Vorhang ist es noch zu früh.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]Diese Haltung des Feindes… hältst du dem stand?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]Übersteh diesen Zug, sonst ist es vorbei.[/red][/shake]",
@@ -100,14 +109,20 @@
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]Da ist noch Energie übrig. Verbrauchst du sie nicht?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]Es gibt noch spielbare Karten… hast du das vergessen?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]Willst du sparen? Das beeindruckt mich nicht.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.3": "[shake][red]Die übrige Energie nehme ich dir gerne ab.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.4": "[shake][red]Zurückhaltung ist eine schlechte Angewohnheit von dir.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]Musste es wirklich so viel Kraft sein?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]Ein übertriebener Schlag. Etwas mehr Maß, vielleicht?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]Diese überschüssige Kraft hättest du anders einsetzen können.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.3": "[shake][red]Ein prächtiger Schlag… aber etwas verschwenderisch.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.4": "[shake][red]Ein übertriebener Angriff, aber gut gemacht. Genau so.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]Das zieht sich ziemlich hin.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]Immer noch nicht vorbei? Mir wird langweilig.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]Geht das nicht etwas geschickter?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.3": "[shake][red]Mit einem solchen Gegner tust du dich aber schwer.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.4": "[shake][red]Als Schauspiel wird das langsam öde.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]Oh, hast du an [/red][gold]Stimmgabel[/gold][red] gedacht?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]Stimmgabel[/gold][red] ist ganz eifrig…\nWar diese Karte wirklich nötig…[/red][/shake]",
@@ -175,13 +190,14 @@
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]Bloße Tricks stoßen irgendwann an ihre Grenzen.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]Wie lange willst du das noch benutzen?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]Damit änderst du das Ende nicht.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]Solch eine Vorbereitung tröstet kaum.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]Solch eine Vorbereitung tröstet kaum…[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]Kaum Wirkung, und doch setzt du es brav ein.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]Ein raffinierter Kniff.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]Geschickt eingefädelt.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]Zahlst du mehr, mache ich dich stärker.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]Du gibst dir wenigstens Mühe.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.4": "[shake][red]Diesen Kniff habe ich nun oft genug gesehen.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]Eine gelungene Idee.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]Ein prächtiger Zug.[/red][/shake]",
@@ -254,5 +270,69 @@
 
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][red]Hättest du [/red][gold]Entkräften[/gold][red] zuerst verteilt, hätte dein Freund mehr Schaden verursacht, nicht wahr?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]Diese Karte für [/red][gold]Entkräften[/gold][red] – ist jetzt die Zeit, sie zurückzuhalten?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]Was tust du da?\nDein Freund hat schon zuerst angegriffen.[/red][/shake]"
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]Was tust du da?\nDein Freund hat schon zuerst angegriffen.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.0": "[shake][red]Glaubst du, ein Neuanfang macht es ungeschehen?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.1": "[shake][red]Wie oft du es auch wiederholst, das Ende bleibt gleich.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.2": "[shake][red]Ich erinnere mich genau an das, was du getan hast.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.3": "[shake][red]Nur weil dir das Ende missfällt, läufst du davon?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.4": "[shake][red]Du nimmst dein Ende nicht mit Würde an.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.0": "[shake][red]Man hat wohl schon auf dich gewartet.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.1": "[shake][red]Auch hier verlangt wohl jemand seinen Preis.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.2": "[shake][red]Nun, Zeit, dein Gold zu verprassen.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.3": "[shake][red]Zeig mir, wie du hier handelst.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.0": "[shake][red]Mit diesem Geldbeutel willst du etwas kaufen?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.1": "[shake][red]Nur zum Schaufensterbummel gekommen, wie es scheint.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.2": "[shake][red]Dein Geldbeutel wirkt recht einsam… wie bedauerlich.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.3": "[shake][red]Nur zum Ansehen hereinzukommen, ist ziemlich sinnlos.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.0": "[shake][red]Die Stunde dieses Schirms scheint gekommen, nicht wahr?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.1": "[shake][red]Nun, nehmen wir uns ungeniert, was hier ist.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.2": "[shake][red]Wählen musst du nicht. Wir nehmen ohnehin alles.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.3": "[shake][red]Zeit für einen Vertrag.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.4": "[shake][red]Ich kaufe dir alles. Auch das geschieht zu deinem Besten.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.0": "[shake][red]In fremde Verträge blicke ich nicht so genau.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.1": "[shake][red]Auch das nennt man wohl einen Handelsvertrag.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.2": "[shake][red]Für dich hat es wohl seinen Wert.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.3": "[shake][red]Was man nicht nutzt, ist wertlos, ganz gleich was es ist.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.0": "[shake][red]Fast konnte ich den Schrei des Händlers hören…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.1": "[shake][red]Dein Deck ist ordentlich schwerer geworden.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.2": "[shake][red]Nun, wie du mit dieser Macht umgehst… das wird interessant.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.3": "[shake][red]Das ist der Vertrag. Du hast ihm doch zugestimmt, nicht wahr?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.4": "[shake][red]Du darfst gern wieder zum Händler gehen. Den Vertrag halte ich ein.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.0": "[shake][red]Nichts gewählt… wie vorsichtig von dir.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.1": "[shake][red]Ganz der Sparsame. Wie öde.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.2": "[shake][red]Nimmst du das Gold etwa mit ins Grab?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.3": "[shake][red]Nur zu horten, ist ziemlich öde.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.0": "[shake][red]Beinahe hättest du dir etwas leisten können.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.1": "[shake][red]Nur wenige Münzen haben wohl gefehlt.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.2": "[shake][red]Wie sehr du es auch bereust, dein Weg bleibt derselbe.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.3": "[shake][red]Wünschst du einen neuen Vertrag? Der wird teuer.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.0": "[shake][red]Du bist ja völlig blank. Wie forsch von dir.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.1": "[shake][red]So unbedacht das Gold zu verprassen, missfällt mir nicht.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.2": "[shake][red]Ohne Zögern alles hineingesteckt… diese Entschlossenheit erkenne ich an.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.3": "[shake][red]Beeindruckend leer. Bereuen scheinst du es nicht.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]Nicht ein einziges Ding konntest du kaufen.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]Das war doch abzusehen.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]Sich am bloßen Anblick zu erfreuen… ein kostspieliges Hobby.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]Dein leerer Geldbeutel… den zu beobachten wird nie langweilig.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]Zögerst du immer noch?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]Sollten wir nicht langsam weiterziehen?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]Gähn[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]Wie lange kannst du dich noch nicht entscheiden?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]Selbst ich kenne die wahre Natur dieses Händlers nicht.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]Kannst du dich nicht entscheiden, schließe ich den Vertrag für dich.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]Auch Entschlossenheit ließe sich gegen einen Preis gewähren.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]Diese Stille spiegelt wohl deine Entschlossenheit wider.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]Nicht einmal als Schauspiel taugt das… wie traurig.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]Kannst du dich nicht entscheiden? Soll ich für dich wählen?[/red][/shake]"
 }

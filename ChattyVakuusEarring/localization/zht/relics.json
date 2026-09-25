@@ -80,15 +80,24 @@
   "CHATTY-VAKUU-EARRING.IDLE.2": "[shake][red]你的手停下了。要我替你嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.IDLE.3": "[i][font_size=22][sine][red]哈欠[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.IDLE.4": "[shake][red]儘管想個夠吧，反正結局不會變。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.5": "[shake][red]纏著你，也開始膩了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.6": "[shake][red]我知道最好的選擇。你想知道嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.7": "[shake][red]也該讓我看看你的答案了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.8": "[shake][red]再怎麼煩惱，正確答案也不會變多。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.IDLE.9": "[shake][red]看來你煩惱得挺深啊。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.0": "[shake][red]剛才那下，看起來挺痛的。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.1": "[shake][red]這種傷，可經不起你挨太多次吧？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.2": "[shake][red]哦…你沒打算擋下嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.HEAVY_HIT.3": "[shake][red]這也是你自己招來的災禍吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.4": "[shake][red]好一副痛苦的表情啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.HEAVY_HIT.5": "[shake][red]竟然還站得住，真頑強啊。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LOW_HP.0": "[shake][red]差不多要危險了吧？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.1": "[shake][red]你的臉色，不太好啊……[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LOW_HP.2": "[shake][red]要是就這樣倒下，未免太無趣了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.3": "[shake][red]這種程度就放棄，我可傷腦筋。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LOW_HP.4": "[shake][red]現在謝幕，未免太早了。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.0": "[shake][red]那敵人的架勢……你擋得住嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LETHAL_THREAT.turn_start.1": "[shake][red]這回合若撐不過去，一切就結束了。[/red][/shake]",
@@ -100,14 +109,20 @@
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.0": "[shake][red]能量還剩著呢。不打算用完嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.1": "[shake][red]手裡還有牌能打……你忘了嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.WASTED_ENERGY.2": "[shake][red]是想省著用嗎？可不值得讚賞。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.3": "[shake][red]剩下的能量，讓我收下也無妨。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.WASTED_ENERGY.4": "[shake][red]藏著掖著，是你的壞習慣。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.OVERKILL.0": "[shake][red]有必要使出那麼大的力氣嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.1": "[shake][red]這一擊，未免太多餘了。稍微分配一下如何？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.OVERKILL.2": "[shake][red]那多餘的力量，本可以用在別處的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.3": "[shake][red]精彩的一擊…不過，有點浪費啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.OVERKILL.4": "[shake][red]攻擊是過頭了，但很精彩。保持這樣就好。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.0": "[shake][red]這場戰鬥，拖得可真久。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.1": "[shake][red]還沒結束嗎？我開始覺得無聊了。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.LONG_FIGHT.2": "[shake][red]就不能俐落一點嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.3": "[shake][red]對付這種程度的對手，也真夠費勁的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.LONG_FIGHT.4": "[shake][red]當作表演來看，已經有點無聊了。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.0": "[shake][red]哦，你還記得[/red][gold]音叉[/gold][red]嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.TUNING_FORK_COMPLAINT.1": "[shake][gold]音叉[/gold][red]正卯足了勁呢…\n那張牌，真的有必要打嗎……[/red][/shake]",
@@ -175,13 +190,14 @@
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.0": "[shake][red]這種小把戲，總有一天會到極限的。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.1": "[shake][red]你打算，用這種東西用到什麼時候？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.2": "[shake][red]這種程度，改變不了結局的。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]這點準備，連安慰都算不上。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.3": "[shake][red]這種程度，連安慰都算不上……[/red][/shake]",
   "CHATTY-VAKUU-EARRING.COMMON_SKILL_CARD_FLAVOR.4": "[shake][red]明明沒什麼效果，倒是用得挺勤快。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.0": "[shake][red]挺小聰明的一手。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.1": "[shake][red]手法倒是靈巧。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.2": "[shake][red]再多付一點代價，我能讓你變得更強。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.3": "[shake][red]看來你也花了些心思。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.UNCOMMON_SKILL_CARD_FLAVOR.4": "[shake][red]你老是靠這招，我也看膩了。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.0": "[shake][red]相當有巧思。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.RARE_SKILL_CARD_FLAVOR.1": "[shake][red]好華麗的一手。[/red][/shake]",
@@ -254,5 +270,69 @@
 
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.0": "[shake][red]若先給對方附上[/red][gold]摧殘[/gold][red]，你的朋友本能造成更多傷害，對吧？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.1": "[shake][red]那張能附加[/red][gold]摧殘[/gold][red]的牌，現在是捨不得用的時候嗎？[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]你在做什麼？\n你的朋友已經搶先攻擊了。[/red][/shake]"
+  "CHATTY-VAKUU-EARRING.DEBILITATE_FOR_FRIEND.2": "[shake][red]你在做什麼？\n你的朋友已經搶先攻擊了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.0": "[shake][red]重來一次，就當作沒發生過嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.1": "[shake][red]無論重來多少次，結局都不會變。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.2": "[shake][red]你的那個舉動，我都記得。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.3": "[shake][red]只是不喜歡結局，就要逃跑嗎。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SAVE_SCUMMING.4": "[shake][red]真是不乾脆。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.0": "[shake][red]看來，有人正等著你呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.1": "[shake][red]看來這裡也有人在索求代價呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.2": "[shake][red]好了，該是揮霍的時候了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.3": "[shake][red]讓我瞧瞧你的交易吧。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.0": "[shake][red]就憑那點家當，你打算買什麼？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.1": "[shake][red]看來是來隨便看看的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.2": "[shake][red]錢包看來挺寒酸的…真可憐。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED.broke.3": "[shake][red]只逛不買，真是空虛啊。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.0": "[shake][red]看來輪到這把陽傘大顯身手了？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.1": "[shake][red]來吧，毫不客氣地全部收下。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.2": "[shake][red]不必挑選了，反正全部都要收下。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.3": "[shake][red]是時候簽訂契約了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_ENTERED_WITH_PARASOL.4": "[shake][red]我替你把一切都買下吧。這也是為了你好。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.0": "[shake][red]我不會細究他人的契約。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.1": "[shake][red]這也算是商人的契約吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.2": "[shake][red]對你來說，想必是有價值的吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED.3": "[shake][red]無論什麼東西，用不上就毫無價值。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.0": "[shake][red]彷彿聽見商人的哀嚎了呢…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.1": "[shake][red]牌組變重了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.2": "[shake][red]好了，你要如何運用這股力量…值得一看呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.3": "[shake][red]這就是契約。你也是心甘情願才選擇的，對吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_WITH_PARASOL.4": "[shake][red]你也可以再去商人那裡逛逛，畢竟我會遵守契約的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.0": "[shake][red]什麼都不選…還真是謹慎啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.1": "[shake][red]真是個節儉的人。真無趣。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.2": "[shake][red]那些金幣，你是打算帶進墳墓嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NOTHING_BOUGHT.3": "[shake][red]只知道囤積，真是無趣。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.0": "[shake][red]差一點就能買到手了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.1": "[shake][red]看來有東西只差幾枚金幣就錯過了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.2": "[shake][red]再怎麼後悔，你的路也不會改變。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_NEAR_MISS.3": "[shake][red]想要一份新的契約嗎？代價可不便宜。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.0": "[shake][red]不是身無分文了嗎。真是豪爽。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.1": "[shake][red]不顧後果的揮霍，我倒不討厭。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.2": "[shake][red]毫不猶豫地投入…這份乾脆，我承認。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_SPENT_DOWN.3": "[shake][red]空得真徹底啊。看來也沒什麼好後悔的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]什麼都沒能買到呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]這早就是意料中的事了吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]光看就滿足了…真是奢侈的嗜好。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]你那錢包的狀況…看著還真不會膩。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]還在猶豫嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]差不多該走了吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]哈欠[/red][/sine][/font_size][/i]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]你要猶豫不決到什麼時候？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]連我也不清楚這位的真面目。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]若你決定不了，就讓我替你簽下契約吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]決斷力這種東西，只要付出代價也能賜予你的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]這片沉默，倒是很能代表你的決斷力。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]連個看頭都沒有，真是寂寞啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]若是難以抉擇，要不要我幫你選？[/red][/shake]"
 }
