@@ -35,7 +35,7 @@
 
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.0": "[shake][red]네 친구가 더 열심인 것 같군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.1": "[shake][red]너도 좀 더 애써보는 게 어때?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]제법 훌륭한 호흡이군...[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]친구를 본받아 정진하도록 해.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.3": "[shake][red]좋은 친구를 뒀나 보군?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.4": "[shake][red]저자에게도 계약을 권해야겠군.[/red][/shake]",
 
@@ -322,17 +322,94 @@
 
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]결국 하나도 못 샀군.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]뻔히 알고 있던 일이었지.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]보는 것만으로 만족하다니... 호사스러운 취미로군.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]그 주머니 사정, 볼 때마다 질리지가 않는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]구경만 하다 돌아가다니... 호사스러운 취미로군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]그 주머니 사정... 딱하기도 하지.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]아직도 망설이는 건가?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]슬슬 다음으로 넘어갈까.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]하품[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]언제까지 정하지 못하고 있을 셈이지?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]이 자의 정체는 나도 모르지.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]정하지 못하겠다면, 내가 대신 계약을 맺어주지.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]결단력도, 대가를 치르면 줄 수 있는데 말이지.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]이 정적, 네 결단력을 보여주는 것 같군.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]구경거리도 못 되다니, 쓸쓸하군.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]정하지 못하겠다면, 내가 대신 골라줄까?[/red][/shake]"
+
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.0": "[shake][red]이런, 이런.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.1": "[shake][red]맞아버렸군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.2": "[shake][red]막아내지 못했나.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.3": "[shake][red]작은 상처도 쌓이는 법이지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.4": "[shake][red]이 고통, 되갚아 줘라.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.5": "[shake][red]이런 일을 계속 반복할 셈인가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.6": "[shake][red]이런 게 계속되면 곤란한데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.7": "[shake][red]좀 더 잘할 수 있었을 텐데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.8": "[shake][red]우연이 아니야. 네 선택의 결과지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.9": "[i][font_size=22][sine][red]한숨[/red][/sine][/font_size][/i]",
+
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.0": "[shake][red]아까부터, 착실히 깎여나가는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.1": "[shake][red]숨이 계속 가빠지는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.2": "[shake][red]이대로, 서서히 끝낼 셈인가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.3": "[shake][red]막아내지 못하는 파도가 계속되는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.4": "[shake][red]차마 눈 뜨고 못 보겠군.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.0": "[shake][red]생각할 틈도 없이, 손가락이 먼저 움직이는군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.1": "[shake][red]그렇게 서둘러서, 대체 뭐에 쫓기는 거지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.2": "[shake][red]한 장 한 장에 네 목숨이 걸려 있는 거야.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.3": "[shake][red]숙고를 잊은 손은, 언젠가 치명적인 결과로 이어지지.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.0": "[shake][red]어서 해치워 버려라.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.1": "[shake][red]어디 한번 보여줘 봐.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.2": "[shake][red]이번엔 어떻게 움직여줄 텐가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.3": "[shake][red]이런 적한테 고전할 너는 아니겠지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.4": "[shake][red]이런 잔챙이는 지겹게 봤군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.5": "[shake][red]이 정도 적은, 얼른 해치워줘.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.0": "[shake][red]조금은 애먹을 것 같군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.1": "[shake][red]이 정도로 비명 지르진 마라.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.2": "[shake][red]실력 좀 구경해 볼까.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.3": "[shake][red]사냥할 시간이야.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.4": "[shake][red]우리는 완벽한 승리를 원하고 있을 텐데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.5": "[shake][gold]{Enemy}[/gold][red]한테 고전해서야, 앞날이 없어.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.0": "[shake][red]이 층의 고비로군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.1": "[shake][red]너는 몇 번이나 [/red][gold]{Enemy}[/gold][red]와 맞서왔을 텐데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.2": "[shake][red]자, 네 싸움을 좀 보여줘.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.3": "[shake][red]네가 얼마나 괴로워할지, 볼만하겠군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.4": "[shake][red]여기가 끝이 아니야.\n그자에게까지 도달해야 해.\n그렇지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.5": "[shake][gold]{Enemy}[/gold][red]…\n물론 쓰러뜨릴 방도는 세워왔겠지?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.0": "[shake][gold]{Enemy}[/gold][red] 따위에 질 네가 아니지.\n그렇지?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.1": "[shake][gold]{Enemy}[/gold][red]는, 이제 네게 위협도 안 될 텐데.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.2": "[shake][red]너는 몇 번이나 [/red][gold]{Enemy}[/gold][red]를 쓰러뜨려 왔지.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.0": "[shake][gold]{Enemy}[/gold][red] 상대로, 어지간히 애먹는 모양이군?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.1": "[shake][red]너는 몇 번이나 지고 있어.[/red][gold]{Enemy}[/gold][red] 상대로 말이야.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.2": "[shake][red]이 상대한테 안 좋은 기억이 있는 모양이군? 몸에 배어 있어.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.0": "[shake][gold]{Enemy}[/gold][red] 상대는 이제 익숙한 모양이군…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.1": "[shake][red]이번엔 완전한 승리를 노려보지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.2": "[shake][red]벌써[/red][gold]{Enemy}[/gold][red]에게 이기는 미래가 보이는군?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.0": "[shake][red]또[/red][gold]{Enemy}[/gold][red]인가. 이번엔 어떻게 될는지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.1": "[shake][gold]{Enemy}[/gold][red]한테는, 몇 번이나 쓴맛을 본 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.2": "[shake][red]이 상대한테 몇 번이나 처음으로 되돌려지고 있어, 너 말이야.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.0": "[shake][red]{Count}번째, 인가.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.1": "[shake][red]여기 오는 건, {Count}번째인 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.2": "[shake][red]{Count}번.[/red][/shake][sine][blue]네[/blue][/sine][shake][red]가 다시 하는 건 {Count}번째야.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.3": "[shake][red]몇 번을 반복해도, 결말은 바뀌지 않아.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.4": "[shake][red]당연히 이길 수 있겠지?\n[/red][/shake][sine][blue]너[/blue][/sine][shake][red]는 미래를 보고 왔으니까.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.5": "[shake][red]이기기 위해서라면 수단은 가리지 않는다.\n[/red][/shake][sine][blue]너[/blue][/sine][shake][red]는 나랑 잘 맞는 모양이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.6": "[shake][red]같은 시간을 보내는 건 지루한 법이지.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.0": "[shake][red]앞으로 몇 번이나 더 다시 할 셈인 건지…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.1": "[shake][red]한 번으로 끝나면 좋으련만. 그 수단에 기대는 건.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.2": "[sine][blue]너[/blue][/sine][shake][red]는 이제부터 나와 같은 시간을 보내게 될 거야.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.3": "[shake][red]이 싸움을 바꿔봤자, 운명을 바꿀 힘은 없어.\n[/red][/shake][sine][blue]너[/blue][/sine][shake][red]한테는 말이지.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.0": "[shake][red]또 만났군.\n3번째던가?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.1": "[shake][red]또다시 이 수단에 기대버렸군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.2": "[shake][red]또[/red][/shake][sine][blue]너[/blue][/sine][shake][red]는 다시 시작하겠지.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.3": "[shake][red]삼세번이라는 말대로 되면 좋겠지만.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.0": "[shake][red]이걸로 4번째군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.1": "[shake][red]뭐, 몇 번을 해도 마찬가지일 거라 생각하지만.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.2": "[shake][red]3번이나 다시 하다니, 참으로 한심한 일이군.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.3": "[sine][blue]너[/blue][/sine][shake][red]는 또 다시 시작할 거야. 다음엔 5번째가 되겠지.[/red][/shake]"
 }

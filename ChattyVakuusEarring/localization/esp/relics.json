@@ -35,7 +35,7 @@
 
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.0": "[shake][red]Tu camarada se esfuerza más que tú.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.1": "[shake][red]¿Por qué no te esfuerzas un poco más?[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]Qué coordinación tan admirable…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]Deberías tomar ejemplo de tu camarada y esforzarte un poco más.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.3": "[shake][red]Qué camarada tan admirable tienes, ¿no?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.4": "[shake][red]Debería ofrecerle un contrato a esa persona también.[/red][/shake]",
 
@@ -322,17 +322,94 @@
 
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]No pudiste comprar ni una sola cosa.[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]Era de esperarse.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]Conformarte con solo mirar… qué gusto tan refinado.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]Esa situación de tu bolsa… nunca deja de entretenerme.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]Venir solo a mirar y marcharte… qué afición tan lujosa.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]Esa situación de tu bolsa… qué penosa, la verdad.[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]¿Sigues dudando?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]Vayamos avanzando ya, ¿no crees?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]*bosteza*[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]¿Hasta cuándo seguirás sin decidirte?[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]Ni yo sé quién es en realidad este Comerciante.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]Si no puedes decidir, firmaré el contrato por ti.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]La capacidad de decidir también podría dártela… a cambio de un precio.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]Este silencio parece reflejar bien tu capacidad de decisión.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]Ni como espectáculo sirves. Qué triste.[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]Si no te decides, ¿quieres que elija yo por ti?[/red][/shake]"
+
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.0": "[shake][red]Vaya, vaya.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.1": "[shake][red]Recibiste ese golpe, después de todo.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.2": "[shake][red]¿No pudiste bloquearlo del todo?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.3": "[shake][red]Hasta las heridas pequeñas se acumulan.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.4": "[shake][red]Devuelve ese dolor.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.5": "[shake][red]¿Piensas seguir repitiendo esto?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.6": "[shake][red]Esto no puede seguir así.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.7": "[shake][red]Pudiste haberlo hecho mejor.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.8": "[shake][red]No fue casualidad. Es el resultado de tu elección.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.9": "[i][font_size=22][sine][red]*suspira*[/red][/sine][/font_size][/i]",
+
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.0": "[shake][red]Desde hace un rato, te van desgastando poco a poco.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.1": "[shake][red]El cansancio no cesa, ¿verdad?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.2": "[shake][red]¿Piensas terminar así, poco a poco?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.3": "[shake][red]Sigue llegando una ola que no puedes contener.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.4": "[shake][red]Esto ya es difícil de presenciar.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.0": "[shake][red]Tus dedos se mueven antes de que pienses.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.1": "[shake][red]¿Qué te apura tanto?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.2": "[shake][red]Cada carta tiene tu vida en juego.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.3": "[shake][red]Una mano sin reflexión, tarde o temprano, te costará caro.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.0": "[shake][red]Acaba con esto rápido.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.1": "[shake][red]Déjame verlo.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.2": "[shake][red]¿Cómo te las arreglarás esta vez?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.3": "[shake][red]No serás tú quien sufra contra un enemigo así.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.4": "[shake][red]Ya me cansé de ver rivales tan insignificantes.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.5": "[shake][red]Un enemigo tan débil, acaba con él pronto.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.0": "[shake][red]Esto costará algo de esfuerzo.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.1": "[shake][red]No te rindas con tan poco.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.2": "[shake][red]Veamos de qué eres capaz.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.3": "[shake][red]Es hora de cazar.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.4": "[shake][red]Buscamos una victoria perfecta, ¿no es así?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.5": "[shake][gold]{Enemy}[/gold][red] no debería hacerte sufrir tanto. Así no llegarás lejos.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.0": "[shake][red]Este es el momento decisivo del piso.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.1": "[shake][red]Ya te has enfrentado a [/red][gold]{Enemy}[/gold][red] muchas veces.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.2": "[shake][red]Bien, muéstrame tu combate.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.3": "[shake][red]Lo interesante será ver cuánto sufres.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.4": "[shake][red]Esto no es el final.\nDebes llegar hasta él.\n¿No es así?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.5": "[shake][gold]{Enemy}[/gold][red]…\nPor supuesto que ya tienes un plan para derrotarlo, ¿verdad?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.0": "[shake][gold]{Enemy}[/gold][red] no es rival para ti.\n¿No es así?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.1": "[shake][gold]{Enemy}[/gold][red] ya no debería ser una amenaza para ti.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.2": "[shake][red]Ya has derrotado a [/red][gold]{Enemy}[/gold][red] muchas veces.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.0": "[shake][gold]{Enemy}[/gold][red] parece estar dándote muchos problemas, ¿no?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.1": "[shake][red]Has perdido muchas veces contra [/red][gold]{Enemy}[/gold][red].[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.2": "[shake][red]Parece que tienes un mal recuerdo de este rival, ¿no? Se te quedó grabado en el cuerpo.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.0": "[shake][gold]{Enemy}[/gold][red] ya no parece un desafío para ti…[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.1": "[shake][red]Esta vez, busquemos una victoria perfecta.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.2": "[shake][red]Ya puedes ver el futuro en el que vences a [/red][gold]{Enemy}[/gold][red], ¿verdad?[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.0": "[shake][red]Otra vez [/red][gold]{Enemy}[/gold][red]. Me pregunto cómo saldrá esto esta vez.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.1": "[shake][gold]{Enemy}[/gold][red] te ha hecho pasar un mal trago más de una vez.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.2": "[shake][red]Este rival te ha devuelto al principio una y otra vez.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.0": "[shake][red]Van {Count} veces, ¿eh?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.1": "[shake][red]Parece que esta es la vez número {Count} que vienes aquí.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.2": "[shake][red]{Count} veces.[/red][/shake][sine][blue]Tú[/blue][/sine][shake][red] ya vas por el intento número {Count}.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.3": "[shake][red]Repetirlo cuantas veces quieras no cambiará el resultado.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.4": "[shake][red]Por supuesto que vas a ganar, ¿verdad?\n[/red][/shake][sine][blue]Tú[/blue][/sine][shake][red] ya has visto el futuro, después de todo.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.5": "[shake][red]No te importa el medio con tal de ganar.\n[/red][/shake][sine][blue]Tú[/blue][/sine][shake][red] y yo parecemos congeniar.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.6": "[shake][red]Pasar el mismo tiempo una y otra vez es aburrido.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.0": "[shake][red]¿Cuántas veces más piensas volver a intentarlo…?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.1": "[shake][red]Ojalá te baste con una vez recurrir a ese método.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.2": "[sine][blue]Tú[/blue][/sine][shake][red] vas a pasar el mismo tiempo que yo, a partir de ahora.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.3": "[shake][red]Aunque cambies este combate, no tienes el poder de cambiar el destino.\n[/red][/shake][sine][blue]Tú[/blue][/sine][shake][red], al menos.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.0": "[shake][red]Nos volvemos a encontrar.\n¿Es la tercera vez?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.1": "[shake][red]Volviste a recurrir a ese método.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.2": "[shake][red]Otra vez,[/red][/shake][sine][blue]Tú[/blue][/sine][shake][red] volverás a intentarlo, ¿verdad?[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.3": "[shake][red]Ojalá la tercera sea la vencida.[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.0": "[shake][red]Esta es la cuarta vez.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.1": "[shake][red]Bueno, da igual cuántas veces lo intentes, supongo.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.2": "[shake][red]Haber vuelto a intentarlo tres veces… qué lamentable.[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.3": "[sine][blue]Tú[/blue][/sine][shake][red] volverás a intentarlo. La próxima será la quinta vez.[/red][/shake]"
 }

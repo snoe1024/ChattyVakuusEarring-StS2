@@ -35,7 +35,7 @@
 
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.0": "[shake][red]看來，你朋友比你更賣力。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.1": "[shake][red]你是不是也該再加把勁？[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]好精彩的配合……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FRIEND_KILL.2": "[shake][red]倒不如向你朋友學學，好好精進吧。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.3": "[shake][red]你似乎交了個不錯的朋友？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.FRIEND_KILL.4": "[shake][red]看來也該邀請那位，簽下契約了。[/red][/shake]",
 
@@ -322,17 +322,94 @@
 
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.0": "[shake][red]什麼都沒能買到呢。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.1": "[shake][red]這早就是意料中的事了吧。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]光看就滿足了…真是奢侈的嗜好。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]你那錢包的狀況…看著還真不會膩。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.2": "[shake][red]只是看看就走了……真是奢侈的興趣呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.SHOP_CLOSED_CANT_AFFORD.3": "[shake][red]那個錢包的狀況……真是寒酸啊。[/red][/shake]",
 
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.0": "[shake][red]還在猶豫嗎？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.1": "[shake][red]差不多該走了吧。[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.2": "[i][font_size=22][sine][red]哈欠[/red][/sine][/font_size][/i]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.3": "[shake][red]你要猶豫不決到什麼時候？[/red][/shake]",
   "CHATTY-VAKUU-EARRING.SHOP_IDLE.4": "[shake][red]連我也不清楚這位的真面目。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.5": "[shake][red]若你決定不了，就讓我替你簽下契約吧。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.6": "[shake][red]決斷力這種東西，只要付出代價也能賜予你的。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.7": "[shake][red]這片沉默，倒是很能代表你的決斷力。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.8": "[shake][red]連個看頭都沒有，真是寂寞啊。[/red][/shake]",
-  "CHATTY-VAKUU-EARRING.SHOP_IDLE.9": "[shake][red]若是難以抉擇，要不要我幫你選？[/red][/shake]"
+
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.0": "[shake][red]哎呀哎呀。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.1": "[shake][red]看來，你挨了一下呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.2": "[shake][red]看來，你沒能擋住呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.3": "[shake][red]小傷，也是會累積成大傷的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.4": "[shake][red]把這份疼痛，加倍奉還吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.5": "[shake][red]你打算，就這樣一再重複嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.6": "[shake][red]再這樣下去，可不行啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.7": "[shake][red]你明明能做得更好吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.8": "[shake][red]這可不是偶然，是你自己選擇的結果。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.GENERAL_DAMAGE_TAKEN.9": "[i][font_size=22][sine][red](嘆息聲)[/red][/sine][/font_size][/i]",
+
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.0": "[shake][red]從剛才開始，就一直被穩穩地削著呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.1": "[shake][red]看來，你已經開始喘不過氣了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.2": "[shake][red]難道，你打算就這樣一點一點地耗盡嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.3": "[shake][red]擋不住的攻勢，還在持續呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.CONSECUTIVE_DAMAGE.4": "[shake][red]這模樣，真讓人不忍直視呢。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.0": "[shake][red]來不及思考，手指就先動了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.1": "[shake][red]那麼著急，是在被什麼追趕嗎？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.2": "[shake][red]每一張牌，都關係著你的性命。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.FAST_PLAY.3": "[shake][red]忘了斟酌的手，遲早會招來致命的後果。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.0": "[shake][red]快點解決掉吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.1": "[shake][red]讓我瞧瞧吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.2": "[shake][red]這次，你打算怎麼應付？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.3": "[shake][red]區區這種對手，應該難不倒你吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.4": "[shake][red]這種雜魚，我早就看膩了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.monster.5": "[shake][red]這種程度的敵人，快點解決掉吧。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.0": "[shake][red]看來，這次多少要費點功夫了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.1": "[shake][red]可別這點程度就叫苦啊。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.2": "[shake][red]就讓我見識見識你的本事吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.3": "[shake][red]狩獵的時間到了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.4": "[shake][red]我們追求的，應該是完美的勝利。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.elite.5": "[shake][gold]{Enemy}[/gold][red]這種對手都打得吃力，可沒什麼未來可言。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.0": "[shake][red]這一層的關鍵時刻到了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.1": "[shake][red]你應該已經與[/red][gold]{Enemy}[/gold][red]交手過許多次了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.2": "[shake][red]好了，讓我見識見識你的戰鬥吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.3": "[shake][red]你會有多痛苦，倒是值得一看。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.4": "[shake][red]這裡還不是終點。\n你必須抵達那個人的所在。\n是吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_GREETING.boss.5": "[shake][gold]{Enemy}[/gold][red]……\n你當然已經準備好了對付他的手段吧？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.0": "[shake][gold]{Enemy}[/gold][red]這種對手，你是不會輸的。\n是吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.1": "[shake][gold]{Enemy}[/gold][red]，對你來說應該已經不算威脅了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_high.2": "[shake][red]你已經多次擊敗過[/red][gold]{Enemy}[/gold][red]了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.0": "[shake][red]面對[/red][gold]{Enemy}[/gold][red]，看來相當吃力呢？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.1": "[shake][red]你已經輸過好幾次了。[/red][gold]{Enemy}[/gold][red]，面對牠的時候。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.elite_low.2": "[shake][red]對上這個對手，似乎有不太好的回憶呢？看來已經深深烙印在身體裡了。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.0": "[shake][red]面對[/red][gold]{Enemy}[/gold][red]，看來已經相當熟練了呢……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.1": "[shake][red]這次，就以完美的勝利為目標吧。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_high.2": "[shake][red]你已經看見擊敗[/red][gold]{Enemy}[/gold][red]的未來了吧？[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.0": "[shake][red]又是[/red][gold]{Enemy}[/gold][red]嗎。這次不知道會如何呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.1": "[shake][gold]{Enemy}[/gold][red]這個對手，似乎讓你吃過不少苦頭呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.ENCOUNTER_WIN_RATE_GREETING.boss_low.2": "[shake][red]面對這個對手，你已經被打回起點好幾次了呢。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.0": "[shake][red]第{Count}次，是嗎。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.1": "[shake][red]來到這裡，似乎已經是第{Count}次了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.2": "[shake][red]{Count}次。[/red][/shake][sine][blue]你[/blue][/sine][shake][red]重新來過，已是第{Count}次了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.3": "[shake][red]無論重複多少次，結局都不會改變的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.4": "[shake][red]你當然能贏，對吧？\n[/red][/shake][sine][blue]你[/blue][/sine][shake][red]畢竟已經預見了未來。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.5": "[shake][red]為了勝利不擇手段。\n[/red][/shake][sine][blue]你[/blue][/sine][shake][red]看來與我頗為投緣呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT.6": "[shake][red]度過相同的時光，實在無聊啊。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.0": "[shake][red]接下來，你還打算重來幾次呢……[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.1": "[shake][red]要是靠那種手段，一次就能解決就好了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.2": "[sine][blue]你[/blue][/sine][shake][red]接下來，要與我共度相同的時光了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_2.3": "[shake][red]即使改變了這場戰鬥，也沒有改變命運的力量。\n[/red][/shake][sine][blue]你[/blue][/sine][shake][red]是沒有的。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.0": "[shake][red]又見面了呢。\n這是第3次了吧？[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.1": "[shake][red]看來，你又依賴了這種手段呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.2": "[shake][red]看來[/red][/shake][sine][blue]你[/blue][/sine][shake][red]又要重新來過了呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_3.3": "[shake][red]希望這第3次，能如願以償呢。[/red][/shake]",
+
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.0": "[shake][red]這已經是第4次了。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.1": "[shake][red]不過，我想無論做幾次，結果都是一樣的。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.2": "[shake][red]重來了3次，真是有些丟人呢。[/red][/shake]",
+  "CHATTY-VAKUU-EARRING.RETRY_COUNT_IS_4.3": "[sine][blue]你[/blue][/sine][shake][red]又要重新來過了。下一次，應該就是第5次了吧。[/red][/shake]"
 }
