@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Combat.History.Entries;
 using MegaCrit.Sts2.Core.Context;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Orbs;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
@@ -132,6 +133,13 @@ public sealed class PlayObserver
     public IEnumerable<Creature> LivingEnemies => _combatState.Enemies.Where(e => e.IsAlive);
 
     /// <summary>
+    /// 生きている敵の中に、ミニオンでない敵が1体もいないか(=実質的にこの戦闘に勝利したか)。
+    /// <see cref="DetectorTrigger.EnemyKilled"/>で、直前の撃破がこの戦闘を終わらせるものだったかの判定に使う
+    /// (戦闘終了そのものを表すトリガーは無いが、「倒した後に非ミニオンが誰も残っていない」で代用できる)。
+    /// </summary>
+    public bool AreAllNonMinionEnemiesDefeated => LivingEnemies.All(e => e.HasPower<MinionPower>());
+
+    /// <summary>
     /// <see cref="DetectorTrigger.CardPlayed"/>で呼ばれた時の、直前に持ち主が手動でプレイしたカード。
     /// それ以外のトリガーでは古い値かnullなので参照しないこと。
     /// </summary>
@@ -194,6 +202,38 @@ public sealed class PlayObserver
     /// (自動プレイも含む)。それ以外のトリガーでは古い値かnullなので参照しないこと。
     /// </summary>
     public CardPlay? LastCardPlayStarted { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.DebuffApplied"/>で呼ばれた時の、直前に持ち主が敵に付与したデバフの記録
+    /// (<c>Power</c>でデバフの種類、<c>Amount</c>でスタック数がわかる)。
+    /// それ以外のトリガーでは古い値かnullなので参照しないこと。
+    /// </summary>
+    public PowerReceivedEntry? LastDebuffApplied { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.OwnBuffApplied"/>で呼ばれた時の、直前に持ち主自身が獲得したバフの記録
+    /// (<c>Power</c>でバフの種類、<c>Amount</c>でスタック数がわかる)。
+    /// それ以外のトリガーでは古い値かnullなので参照しないこと。
+    /// </summary>
+    public PowerReceivedEntry? LastBuffApplied { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.CardGenerated"/>で呼ばれた時の、直前に生成されたカード。
+    /// それ以外のトリガーでは古い値かnullなので参照しないこと。
+    /// </summary>
+    public CardModel? LastGeneratedCard { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.Summoned"/>で呼ばれた時の、直前に成立した召喚の数。
+    /// それ以外のトリガーでは古い値なので参照しないこと。
+    /// </summary>
+    public int LastSummonAmount { get; internal set; }
+
+    /// <summary>
+    /// <see cref="DetectorTrigger.OrbChanneled"/>で呼ばれた時の、直前に生成したオーブ。
+    /// それ以外のトリガーでは古い値かnullなので参照しないこと。
+    /// </summary>
+    public OrbModel? LastChanneledOrb { get; internal set; }
 
     /// <summary>直前の撃破が、持ち主本人によるものか。</summary>
     public bool LastKillWasByOwner => LastKiller == Owner;
@@ -279,6 +319,24 @@ public sealed class PlayObserver
     };
 
     /// <summary>
+    /// このカードの攻撃ダメージが、オスティ(<c>OstyDamageVar</c>、または<c>IsFromOsty</c>が立った
+    /// <c>CalculatedDamageVar</c>)由来か。オスティがいなければこのカードは実質何もしない、
+    /// という判定(<see cref="Detectors.OstyAttackNoOstyDetector"/>)に使う。
+    /// </summary>
+    public static bool IsOstySourcedAttack(CardModel card) => GetAttackDamageVar(card) switch
+    {
+        OstyDamageVar => true,
+        CalculatedDamageVar { IsFromOsty: true } => true,
+        _ => false,
+    };
+
+    /// <summary>
+    /// このカードがオスティを召喚する効果を持つか(<c>SummonVar</c>を持つか。<c>Bodyguard</c>等)。
+    /// 「オスティを呼ぶ手段が今すぐ手札にあるか」の判定に使う。
+    /// </summary>
+    public static bool SummonsOsty(CardModel card) => card.DynamicVars.TryGetValue("Summon", out _);
+
+    /// <summary>
     /// カードのブロック量を表す<c>DynamicVar</c>を1つ選んで返す。優先順位: <c>Block</c> → <c>CalculatedBlock</c>
     /// (カードは通常どちらか1つだけを持つ設計)。どちらも持たなければnull(このカードは直接ブロックを与えない)。
     /// </summary>
@@ -319,6 +377,15 @@ public sealed class PlayObserver
     /// </summary>
     public static bool WasCardGeneratedThisCombat(CardModel card) =>
         CombatManager.Instance.History.Entries.OfType<CardGeneratedEntry>().Any(e => e.Card == card);
+
+    /// <summary>
+    /// この戦闘中に一度でも、持ち主が敵から実HP減少ダメージ(ブロックで防げなかった分)を受けたことがあるか。
+    /// 完封勝利(<see cref="Detectors.FlawlessVictoryDetector"/>)の判定に使う。1戦闘の履歴だけを見る
+    /// (毎ターン等の頻度で呼ばれる判定ではなく、戦闘終了の瞬間に1度だけ呼ばれる想定なので、都度全走査でも問題ない)。
+    /// </summary>
+    public bool HasTakenUnblockedDamageThisCombat() =>
+        CombatManager.Instance.History.Entries.OfType<DamageReceivedEntry>()
+            .Any(e => e.Receiver == OwnerCreature && e.Dealer?.Side == CombatSide.Enemy && e.Result.UnblockedDamage > 0);
 
     /// <summary>
     /// この戦闘が、ダブルボス(Ascension「DoubleBoss」)の1戦目に該当するか。1戦目は、直後にもう一度

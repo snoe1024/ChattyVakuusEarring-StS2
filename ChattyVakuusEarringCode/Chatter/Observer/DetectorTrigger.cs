@@ -119,4 +119,43 @@ public enum DetectorTrigger
     /// <c>PlayObserver.LastCardPlayStarted</c>に入る。
     /// </summary>
     CardPlayStarted = 1 << 14,
+
+    /// <summary>
+    /// 持ち主が敵に何らかの持続効果(弱体・脱力・毒・衰弱・破滅等のデバフに限らず、敵への筋力低下のような
+    /// 「Buff型だが実質デバフ」なものも含む)を付与した瞬間。付与した本人が持ち主の場合のみ
+    /// (敵自身の自傷や、味方への付与は含まない)。種類の絞り込みは個々のDetector側で行う
+    /// (<c>Power.Type</c>によるフィルタはここでは掛けていない。<c>StrengthPower</c>のように
+    /// 常に<c>PowerType.Buff</c>を返すが負のスタックで実質デバフになるものがあるため)。内容は
+    /// <c>PlayObserver.LastDebuffApplied</c>(<c>PowerReceivedEntry</c>。<c>Power</c>で種類、
+    /// <c>Amount</c>でスタック数がわかる)に入る。
+    /// </summary>
+    DebuffApplied = 1 << 15,
+
+    /// <summary>
+    /// 持ち主自身が何らかのバフ(<c>PowerType.Buff</c>)を獲得した瞬間。付与した側は問わない
+    /// (自分のカードによる自己強化・味方からの付与・レリック由来、いずれも含む)。内容は
+    /// <c>PlayObserver.LastBuffApplied</c>(<c>PowerReceivedEntry</c>。<c>Power</c>で種類、
+    /// <c>Amount</c>でスタック数がわかる)に入る。
+    /// </summary>
+    OwnBuffApplied = 1 << 16,
+
+    /// <summary>
+    /// カードが(ドローではなく)生成されて手札・山札・捨て札等に加わった瞬間(<c>CombatHistory</c>の
+    /// <c>CardGeneratedEntry</c>から拾う。生成経路は問わない: ポーション・カード効果・レリック等すべて含む)。
+    /// 生成されたカードは<c>PlayObserver.LastGeneratedCard</c>に入る。
+    /// </summary>
+    CardGenerated = 1 << 17,
+
+    /// <summary>
+    /// 持ち主が「召喚」(ネクロバインダーのキーワード、<c>OstyCmd.Summon</c>が成功した時に<c>CombatHistory</c>が
+    /// 記録する<c>SummonedEntry</c>から拾う。0体の召喚(不発)は記録されないので、実際に召喚が成立した時だけ発火)。
+    /// 召喚数は<c>PlayObserver.LastSummonAmount</c>に入る。
+    /// </summary>
+    Summoned = 1 << 18,
+
+    /// <summary>
+    /// 持ち主が「生成」(ディフェクトのキーワード、<c>OrbCmd.Channel</c>から<c>CombatHistory</c>が記録する
+    /// <c>OrbChanneledEntry</c>から拾う)を行った瞬間。生成したオーブは<c>PlayObserver.LastChanneledOrb</c>に入る。
+    /// </summary>
+    OrbChanneled = 1 << 19,
 }

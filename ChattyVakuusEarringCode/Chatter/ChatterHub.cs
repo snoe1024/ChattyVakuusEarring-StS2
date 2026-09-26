@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.Combat.History;
 using MegaCrit.Sts2.Core.Combat.History.Entries;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Relics;
 
@@ -280,6 +281,62 @@ internal static class ChatterHub
                     {
                         session.Observer.LastDrawnCard = drawn.Card;
                         session.Dispatch(DetectorTrigger.CardDrawn);
+                    }
+
+                    break;
+
+                // カードの生成(ドローではない)。生成した持ち主本人のセッションにだけ伝える
+                // (Creatorがnullの場合はSessions.Whereが自然に空になるので、ガード不要)。
+                case CardGeneratedEntry generated:
+                    foreach (ChatterSession session in Sessions.Where(s => s.Owner == generated.Creator).ToList())
+                    {
+                        session.Observer.LastGeneratedCard = generated.Card;
+                        session.Dispatch(DetectorTrigger.CardGenerated);
+                    }
+
+                    break;
+
+                // 「召喚」(ネクロバインダーのキーワード)。0体の不発は記録されないので、成立した時だけ届く。
+                case SummonedEntry summoned:
+                    foreach (ChatterSession session in Sessions.Where(s => s.Owner.Creature == summoned.Actor).ToList())
+                    {
+                        session.Observer.LastSummonAmount = summoned.Amount;
+                        session.Dispatch(DetectorTrigger.Summoned);
+                    }
+
+                    break;
+
+                // 「生成」(ディフェクトのキーワード、オーブの生成)。
+                case OrbChanneledEntry channeled:
+                    foreach (ChatterSession session in Sessions.Where(s => s.Owner.Creature == channeled.Actor).ToList())
+                    {
+                        session.Observer.LastChanneledOrb = channeled.Orb;
+                        session.Dispatch(DetectorTrigger.OrbChanneled);
+                    }
+
+                    break;
+
+                // 持ち主が何らかの持続効果を受け取った。敵への付与(付与者=持ち主)と、持ち主自身へのバフ付与
+                // (付与者は問わない)の2方向をここでまとめて拾う。Power.Typeによる絞り込みは
+                // DebuffApplied側では行わない(StrengthPowerのように常にBuff型だが負のスタックで
+                // 実質デバフになるものがあるため。種類の判定は個々のDetectorに任せる)。
+                case PowerReceivedEntry received:
+                    if (received.Applier != null && received.Power.Owner.Side == CombatSide.Enemy)
+                    {
+                        foreach (ChatterSession session in Sessions.Where(s => s.Owner.Creature == received.Applier).ToList())
+                        {
+                            session.Observer.LastDebuffApplied = received;
+                            session.Dispatch(DetectorTrigger.DebuffApplied);
+                        }
+                    }
+
+                    if (received.Power.Type == PowerType.Buff)
+                    {
+                        foreach (ChatterSession session in Sessions.Where(s => s.Owner.Creature == received.Power.Owner).ToList())
+                        {
+                            session.Observer.LastBuffApplied = received;
+                            session.Dispatch(DetectorTrigger.OwnBuffApplied);
+                        }
                     }
 
                     break;

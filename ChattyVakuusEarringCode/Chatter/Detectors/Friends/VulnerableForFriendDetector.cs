@@ -54,7 +54,7 @@ public class VulnerableForFriendDetector : PlayDetector
             }
         
             // 弱体の付いていない敵単体を攻撃していたら文句を付けられる
-            if (friendCard.Card.TargetType is not TargetType.AnyEnemy || friendCard.Target!.HasPower<VulnerablePower>())
+            if (friendCard.Card.TargetType is not TargetType.AnyEnemy || friendCard.Target!.HasPower<VulnerablePower>() || friendCard.Target!.HasPower<ArtifactPower>())
             {
                 return null;
             }

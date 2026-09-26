@@ -54,4 +54,13 @@ public enum UtteranceTag
 
     /// <summary>プレイのペース(早指し等)についての指摘。</summary>
     Pace,
+
+    /// <summary>持ち主自身のバフ(筋力・敏捷等)獲得についての一言。</summary>
+    SelfBuff,
+
+    /// <summary>カード報酬画面での出来事についての一言。</summary>
+    CardReward,
+
+    /// <summary>キャラクター固有メカニクス(鍛造・召喚・生成等)の使用についての一言。</summary>
+    CharacterMechanic,
 }
