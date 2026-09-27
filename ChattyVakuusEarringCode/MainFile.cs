@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Reflection;
 using BaseLib.Config;
+using ChattyVakuusEarring.ChattyVakuusEarringCode.CardRewardChatter;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.ShopChatter;
@@ -49,5 +50,6 @@ public partial class MainFile : Node
 
         ChatterHub.Initialize();
         ShopChatterHub.Initialize();
+        CardRewardChatterHub.Initialize();
     }
 }
