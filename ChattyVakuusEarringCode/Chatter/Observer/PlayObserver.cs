@@ -133,13 +133,6 @@ public sealed class PlayObserver
     public IEnumerable<Creature> LivingEnemies => _combatState.Enemies.Where(e => e.IsAlive);
 
     /// <summary>
-    /// 生きている敵の中に、ミニオンでない敵が1体もいないか(=実質的にこの戦闘に勝利したか)。
-    /// <see cref="DetectorTrigger.EnemyKilled"/>で、直前の撃破がこの戦闘を終わらせるものだったかの判定に使う
-    /// (戦闘終了そのものを表すトリガーは無いが、「倒した後に非ミニオンが誰も残っていない」で代用できる)。
-    /// </summary>
-    public bool AreAllNonMinionEnemiesDefeated => LivingEnemies.All(e => e.HasPower<MinionPower>());
-
-    /// <summary>
     /// <see cref="DetectorTrigger.CardPlayed"/>で呼ばれた時の、直前に持ち主が手動でプレイしたカード。
     /// それ以外のトリガーでは古い値かnullなので参照しないこと。
     /// </summary>
@@ -380,12 +373,16 @@ public sealed class PlayObserver
 
     /// <summary>
     /// この戦闘中に一度でも、持ち主が敵から実HP減少ダメージ(ブロックで防げなかった分)を受けたことがあるか。
-    /// 完封勝利(<see cref="Detectors.FlawlessVictoryDetector"/>)の判定に使う。1戦闘の履歴だけを見る
-    /// (毎ターン等の頻度で呼ばれる判定ではなく、戦闘終了の瞬間に1度だけ呼ばれる想定なので、都度全走査でも問題ない)。
+    /// 完封勝利(<see cref="Detectors.FlawlessVictoryDetector"/>)の判定に使う。
     /// </summary>
-    public bool HasTakenUnblockedDamageThisCombat() =>
-        CombatManager.Instance.History.Entries.OfType<DamageReceivedEntry>()
-            .Any(e => e.Receiver == OwnerCreature && e.Dealer?.Side == CombatSide.Enemy && e.Result.UnblockedDamage > 0);
+    /// <remarks>
+    /// 2026-09、実装を修正: 当初は<c>CombatHistory</c>を都度全走査して判定していたが、
+    /// <see cref="DetectorTrigger.CombatWon"/>(<c>CombatManager.CombatWon</c>)が発火する時点では
+    /// 本家が既に<c>History.Clear()</c>を呼んだ後(<c>CombatManager.EndCombatInternal</c>参照)で、
+    /// 履歴を見ても常に空になっており判定できなかった。そこで<c>ChatterHub</c>がダメージを受けるたびに
+    /// (<see cref="DetectorTrigger.DamageTaken"/>と同じタイミングで)このプロパティを更新する方式に変更した。
+    /// </remarks>
+    public bool HasTakenUnblockedDamageThisCombat { get; internal set; }
 
     /// <summary>
     /// この戦闘が、ダブルボス(Ascension「DoubleBoss」)の1戦目に該当するか。1戦目は、直後にもう一度

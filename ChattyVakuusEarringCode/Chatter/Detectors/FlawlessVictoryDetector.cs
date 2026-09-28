@@ -18,11 +18,11 @@ public sealed class FlawlessVictoryDetector : PlayDetector
 
     private const int FlawlessPriority = 10;
 
-    public override DetectorTrigger Triggers => DetectorTrigger.EnemyKilled;
+    public override DetectorTrigger Triggers => DetectorTrigger.CombatWon;
 
     public override Utterance? Detect(PlayObserver observer, DetectorTrigger trigger)
     {
-        if (!observer.AreAllNonMinionEnemiesDefeated || observer.HasTakenUnblockedDamageThisCombat())
+        if (observer.HasTakenUnblockedDamageThisCombat)
         {
             return null;
         }

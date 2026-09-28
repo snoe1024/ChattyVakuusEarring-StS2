@@ -158,4 +158,22 @@ public enum DetectorTrigger
     /// <c>OrbChanneledEntry</c>から拾う)を行った瞬間。生成したオーブは<c>PlayObserver.LastChanneledOrb</c>に入る。
     /// </summary>
     OrbChanneled = 1 << 19,
+
+    /// <summary>
+    /// 戦闘に勝利した瞬間(<c>CombatManager.CombatWon</c>、敗北時は発火しない)。
+    /// </summary>
+    /// <remarks>
+    /// 当初は<see cref="EnemyKilled"/>で「倒した結果、非ミニオンの敵が誰も残っていない」ことを見て
+    /// 勝利の瞬間を代用していたが、これは常に不発だった(2026-09、ユーザー報告: 実機のログで
+    /// <c>VictoryDetector</c>/<c>FlawlessVictoryDetector</c>の<c>Detect</c>が一度も意味のある結果を
+    /// 返していないことを確認)。原因は本家<c>CreatureCmd</c>のダメージ処理: 戦闘を終わらせる最後の一撃は、
+    /// HPを0にした直後・その撃破を<c>CombatHistory</c>に記録する直前に<c>CombatManager.IsEnding</c>
+    /// (「戦闘中だが敵が全滅した」で真になる、ライブ計算のプロパティ)を確認し、真ならその撃破の
+    /// <c>DamageReceivedEntry</c>自体を記録しない(<c>if (!CombatManager.Instance.IsEnding) { History
+    /// .DamageReceived(...); }</c>)という仕様になっている。つまり「戦闘を終わらせた一撃」は構造的に
+    /// <c>CombatHistory</c>に載らず、<c>EnemyKilled</c>(<c>CombatHistory</c>由来)は絶対に発火しない。
+    /// 代わりに、本家が勝利専用に公開している<c>CombatManager.CombatWon</c>(`CombatEnded`より先に発火し、
+    /// セッション破棄前に安全に使える)を直接購読して代用する。
+    /// </remarks>
+    CombatWon = 1 << 20,
 }
