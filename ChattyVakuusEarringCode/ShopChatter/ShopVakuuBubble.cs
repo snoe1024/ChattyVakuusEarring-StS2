@@ -1,9 +1,9 @@
 using System;
-using System.Text.RegularExpressions;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 using Godot;
 using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
+using MegaCrit.Sts2.Core.Nodes.Screens.Overlays;
 using MegaCrit.Sts2.Core.Nodes.Screens.Shops;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
 using MegaCrit.Sts2.Core.Nodes.Vfx.Utilities;
@@ -20,9 +20,6 @@ internal static class ShopVakuuBubble
 {
     /// <summary>非強制発言の最短表示時間(秒)。</summary>
     private const double MinDurationSeconds = 1.5;
-
-    /// <summary>1文字あたりの表示時間(秒)。<c>TalkCmd</c>の計算式(戦闘中)に合わせている。</summary>
-    private const double SecondsPerChar = 0.12;
 
     /// <summary>
     /// 頭部を示すノード(名前に"head"を含む<see cref="Node2D"/>)が見つかった時、そこからさらに右に出すオフセット。
@@ -52,7 +49,7 @@ internal static class ShopVakuuBubble
 
         string text = utterance.Line.GetFormattedText();
         Vector2 position = GetSpeechPosition(visual);
-        double duration = Math.Max(MinDurationSeconds, GetRawCharCount(text) * SecondsPerChar);
+        double duration = SpeechDuration.Compute(text, MinDurationSeconds);
 
         // 色は本家の囁きのイヤリングに合わせる(戦闘中のVakuuSpeakerと同じ)。
         NSpeechBubbleVfx? bubble = NSpeechBubbleVfx.Create(text, DialogueSide.Left, position, duration, VfxColor.Purple);
@@ -61,7 +58,8 @@ internal static class ShopVakuuBubble
             return false;
         }
 
-        NMerchantRoom.Instance?.AddChildSafely(bubble);
+        // NMerchantRoomではなくオーバーレイ層自体に足す(理由はクラスのドキュメント参照)。
+        NOverlayStack.Instance?.AddChildSafely(bubble);
         return true;
     }
 
@@ -104,14 +102,5 @@ internal static class ShopVakuuBubble
         }
 
         return null;
-    }
-
-    /// <summary>
-    /// <c>TalkCmd.GetRawCharCount</c>と同じ計算(BBCode・改行・空白を除いた文字数)。あちらはprivateなので複製。
-    /// </summary>
-    private static int GetRawCharCount(string bbcodeText)
-    {
-        string text = Regex.Replace(bbcodeText, "\\[/?[^\\]]+\\]", "");
-        return text.Replace("\n", "").Replace("\r", "").Replace(" ", "").Length;
     }
 }

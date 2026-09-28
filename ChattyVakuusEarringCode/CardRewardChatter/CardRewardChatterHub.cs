@@ -18,16 +18,7 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.CardRewardChatter;
 /// <summary>
 /// カード報酬画面・「カードを1枚選ぶ」画面(ポーション等)が表示された時に<see cref="CardRewardDetector"/>群を
 /// 回し、当選した発言があれば<see cref="CardRewardVakuuBubble"/>で表示する入口。
-/// <c>Chatter.ChatterHub</c>/<c>ShopChatter.ShopChatterHub</c>のカード報酬画面版だが、こちらは持続する
-/// セッションを持たない。画面が表示された瞬間だけで完結する(「入室〜放置〜退室」のような時間経過が
-/// この画面には無いため)。
 /// </summary>
-/// <remarks>
-/// <c>Patch.CardRewardShownPatch</c>(<c>NCardRewardSelectionScreen.ShowScreen</c>のPostfix)、
-/// <c>Patch.ChooseACardShownPatch</c>(<c>NChooseACardSelectionScreen.ShowScreen</c>のPostfix)から呼ばれる。
-/// 両画面は型として無関係だが処理はほぼ共通なので、<see cref="Handle"/>1箇所にまとめ、画面ごとの違いは
-/// <see cref="ICardChoiceScreenAdapter"/>と<see cref="CardRewardDetectorTrigger"/>の値だけで吸収している。
-/// </remarks>
 internal static class CardRewardChatterHub
 {
     /// <summary>
@@ -44,10 +35,6 @@ internal static class CardRewardChatterHub
     /// このTweenは生成された直後は1フレームも進んでいないため、<c>ShowScreen</c>のHarmonyフックが
     /// 発火した瞬間に<c>NGridCardHolder.Position</c>を読むと、まだアニメーション開始前の初期値
     /// (=カード列のローカル原点。奇数枚では偶然にも中央スロットの最終着地位置と一致する)しか得られない
-    /// (2026-09、ユーザー報告: 「初期設定だと全部一枚目から生えているように見える」。狙ったカードとは
-    /// 無関係な、ほぼ同じ1点に全カードの吹き出しが集まって見えるのはこれが原因)。そこで判定・発言の可否
-    /// 自体は即座に行うが、実際にカード座標を読んで吹き出しを出す(<see cref="EvaluateAndSpeak"/>)のは
-    /// Tweenの所要時間(0.5秒)より少し長く待ってから行う。
     /// </summary>
     private const double CardLayoutSettleDelaySeconds = 0.6;
 
@@ -202,17 +189,6 @@ internal static class CardRewardChatterHub
     /// <summary>
     /// <c>VakuuSpeaker</c>は使わず、確率判定と最短間隔だけを自前で行う。
     /// </summary>
-    /// <remarks>
-    /// <b>なぜ<c>VakuuSpeaker</c>を使わないか(2026-09)</b>: 一度は「高速に開き直した時の吹き出しの重複」対策として
-    /// <c>VakuuSpeaker</c>をstaticフィールドとして使い回す形にしたが、これは同時に<c>VakuuSpeaker</c>本来の
-    /// 「直前と同じ話題(タグ)を6秒以内に繰り返さない」「同じ台詞を直近6回以内に繰り返さない」という
-    /// ルールまでカード報酬画面をまたいで持ち越してしまい、話題キーの選択肢が3つ前後しか無い
-    /// (`CARD_REWARD_GENERIC`は3種)このシステムでは、全ての選択肢を使い切った時点で二度と喋れなくなる
-    /// 実質的なデッドロックを引き起こしていた(ユーザー報告: 起動後、最初の1回しか喋らない)。
-    /// 戦闘・ショップは話題キーの種類も台詞の変種も豊富なので起きにくいが、カード報酬はそうではない。
-    /// そこで<c>VakuuSpeaker.PassesEtiquette</c>のうち、この画面で本当に必要な「確率判定」と
-    /// 「直近の発言からの最短間隔(重複表示防止)」の2つだけを自前で行う形に切り替えた。
-    /// </remarks>
     private static void TrySpeak(Utterance utterance)
     {
         if (!utterance.Force)

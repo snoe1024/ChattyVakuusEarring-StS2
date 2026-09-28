@@ -17,10 +17,6 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 /// CHATTY-VAKUU-EARRING.ORICHALCUM_COMPLAINT.0
 /// </code>
 /// </para>
-/// <para>
-/// テーブルは<c>relics</c>固定。modが独自ローカライズを追加できるのは本家に実在するテーブル名のみで、
-/// 独自ファイル名は黙って無視されるため(sts2_dev_knowledge/topics/modconfig-and-localization.md)。
-/// </para>
 /// </remarks>
 public static class SpeechTable
 {

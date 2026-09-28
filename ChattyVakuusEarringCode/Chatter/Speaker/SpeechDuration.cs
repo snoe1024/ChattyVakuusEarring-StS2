@@ -2,6 +2,7 @@ using System;
 using System.Text.RegularExpressions;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
 using MegaCrit.Sts2.Core.Localization;
+using MegaCrit.Sts2.Core.Runs;
 using MegaCrit.Sts2.Core.Saves;
 using MegaCrit.Sts2.Core.Settings;
 
@@ -9,8 +10,9 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 
 /// <summary>
 /// 吹き出しの表示時間の計算。本家<c>TalkCmd.Play</c>の計算式(文字数×秒/文字、ファストモードなら0.1秒/文字・
-/// 通常なら0.12秒/文字)をベースに、ユーザー設定の倍率(<see cref="ChattyVakuusEarringConfig.SpeechDurationMultiplier"/>)
-/// を掛けたもの。戦闘中(<see cref="VakuuSpeaker"/>)・ショップ(<c>ShopChatter.ShopVakuuBubble</c>)・
+/// 通常なら0.12秒/文字)をベースに、言語圏による自動倍率(<see cref="_speechMultiplier"/>)と
+/// ユーザー設定の倍率(<see cref="ChattyVakuusEarringConfig.SpeechDurationMultiplier"/>)を両方掛けたもの。
+/// 戦闘中(<see cref="VakuuSpeaker"/>)・ショップ(<c>ShopChatter.ShopVakuuBubble</c>)・
 /// カード報酬(<c>CardRewardChatter.CardRewardVakuuBubble</c>)の3箇所全てで共有する。
 /// </summary>
 /// <remarks>
@@ -20,6 +22,16 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 /// 独自複製でファストモード未考慮という差異があった)。倍率を一箇所に集約する良い機会でもあったため、
 /// ここに一本化しファストモード考慮も3箇所共通にした。
 /// </remarks>
+/// <remarks>
+/// 2026-09追加(言語別倍率): 当初は<c>ChattyVakuusEarringConfig.SpeechDurationMultiplier</c>自体を
+/// 言語圏に応じて初期化しようとしたが、それには<c>[ModInitializer]</c>実行時点で<c>LocManager.Instance</c>を
+/// 読む必要があり(番兵値経由でもRunStarted経由でも)、この時点ではまだ<c>LocManager.Instance</c>が
+/// 利用不可でクラッシュする(sts2_dev_knowledge/topics/modconfig-and-localization.md)。そのため設定値とは
+/// 独立した、セッションごとに再計算する<see cref="_speechMultiplier"/>として実装し直した。
+/// <see cref="Initialize"/>で<c>RunManager.Instance.RunStarted</c>(本家の「ラン開始」イベント。デイリー/
+/// カスタム等のゲームモードもすべて<c>RunState.GameMode</c>として同じ<c>RunManager.Launch()</c>を通るので、
+/// ゲームモードを問わず一度は必ず呼ばれる)まで初期化を遅延させる。
+/// </remarks>
 internal static class SpeechDuration
 {
     private const double SecondsPerChar = 0.12;
@@ -27,17 +39,27 @@ internal static class SpeechDuration
     private const double FastModeSecondsPerChar = 0.1;
 
     private const double CjkSpeechMultiplier = 1.75;
-    private const double OtherSpeechMultiplier = 1.75;
+    private const double OtherSpeechMultiplier = 1.0;
 
-    private static double _speechMultiplier = 1.0f;
-    
+    private static double _speechMultiplier = 1.0;
+
     /// <summary>
     /// 文字量に対して読む分量が多い言語コードを定義しちゃう
     /// </summary>
     private static readonly HashSet<string> CjkLanguageCodes =
         new(StringComparer.OrdinalIgnoreCase) { "JPN", "ZHS", "ZHT", "KOR" };
 
-    public static void InitializeSpeechMultiplier()
+    /// <summary>
+    /// <c>MainFile.Initialize()</c>から呼ぶ。イベント購読自体はMod-Init時点でも安全(<c>RunManager.Instance</c>は
+    /// 触れる)。実際に<c>LocManager.Instance</c>を読む<see cref="InitializeSpeechMultiplier"/>は
+    /// ラン開始まで遅延される。
+    /// </summary>
+    public static void Initialize()
+    {
+        RunManager.Instance.RunStarted += _ => InitializeSpeechMultiplier();
+    }
+
+    private static void InitializeSpeechMultiplier()
     {
         _speechMultiplier = CjkLanguageCodes.Contains(LocManager.Instance.Language)
             ? CjkSpeechMultiplier : OtherSpeechMultiplier;

@@ -46,7 +46,7 @@ public partial class MainFile : Node
         //     Logger.Info($"{ModId}:   - {method.DeclaringType?.FullName}.{method.Name}");
         // }
 
-        SpeechDuration.InitializeSpeechMultiplier();
+        SpeechDuration.Initialize();
         ChatterHub.Initialize();
         ShopChatterHub.Initialize();
         CardRewardChatterHub.Initialize();

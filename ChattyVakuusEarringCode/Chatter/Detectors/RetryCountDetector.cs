@@ -14,49 +14,6 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Detectors;
 /// 同じラン・同じ階の戦闘に何度目かで挑んでいる(=セーブスカムでやり直している)時、戦闘開始時に
 /// 他の全ての一言より優先して言う(三層のヴァクー本人との邂逅セリフを模倣)。
 /// </summary>
-/// <remarks>
-/// <para>
-/// 本家の乱数は全て<c>RunState.Rng.StringSeed</c>で決定論的に固定されるので、「同じラン(同じシード)・
-/// 同じ階(<c>RunState.TotalFloor</c>)の戦闘に何度入り直したか」を数えれば、セーブスカムでのやり直し回数がわかる。
-/// </para>
-/// <para>
-/// <b>記録するタイミング</b>: ただし「入り直した回数」を戦闘開始(<see cref="DetectorTrigger.PlayerTurnStarted"/>)の
-/// たびに無条件で加算すると、一旦ゲームを中断したいだけで戦闘開始直後にゲームを終えた人まで
-/// 「セーブスカムした」と誤って数えてしまう(<see cref="SaveScummingDetector"/>が
-/// <c>LastManualCardPlay == null</c>の時に発言しないのと同じ懸念)。そこで、記録の確定
-/// (<see cref="ConfirmAttemptOnce"/>)は「この戦闘で1枚以上手動でカードをプレイした最初の瞬間」
-/// (<see cref="DetectorTrigger.CardPlayed"/>)まで遅らせる。戦闘開始時に喋るかどうかの判定
-/// (<see cref="PeekAttemptNumber"/>)は、既に確定済みの回数を読むだけで、この時点では加算しない
-/// (今回の入室がまだ確定していない=何もせず終える可能性があるため)。
-/// </para>
-/// <para>
-/// この記録を<c>RunState</c>(本家のセーブデータ)に持たせると、ランの保存・同期の対象になってしまい
-/// 純粋なクライアントサイドmodではなくなる。そこで本家の<c>SaveManager.GetProfileScopedPath</c>
-/// (プロファイル単位のディレクトリ配下、`saves/`とは独立。sts2_dev_knowledge/topics/game-fundamentals.mdの
-/// 「プロファイル単位のセーブデータ」参照)にmod専用のJSONファイルを持ち、そこに記録する。戻り値は
-/// <c>user://</c>スキームのGodot仮想パスなので、生の<c>System.IO.File</c>ではなく<c>Godot.FileAccess</c>で読み書きする
-/// (`System.IO.FileAccess`と同名なので<c>Godot.FileAccess</c>と完全修飾する必要がある)。
-/// </para>
-/// <para>
-/// 読み書きに失敗した場合(初回起動でファイルが無い等)は0件として扱い、例外は投げない
-/// (この機能が使えないだけで、他のDetectorやセッション自体には影響させたくないため)。
-/// </para>
-/// <para>
-/// <b>記録の掃除</b>: このファイルは戦闘開始のたびに増える一方なので、不要になった分を2箇所で削る。
-/// (1) ランが完了(勝利・敗北いずれか)した瞬間、<see cref="Patch.RunEndedRetryCleanupPatch"/>
-/// (<c>RunManager.OnEnded</c>のPostfix)が<see cref="ForgetRun"/>を呼び、そのランのシードに紐づく分を消す。
-/// 「あきらめる」操作はこの入口を通らないが、セーブ自体が消えるので(2)の起動時スイープが拾う。
-/// (2) このDetectorが本セッションで最初に呼ばれた時(<see cref="_didStartupSweep"/>)、中断セーブが
-/// 存在しない、または存在するシングルプレイのセーブと一致しない記録を<see cref="SweepStaleRuns"/>で消す
-/// (クラッシュ・強制終了・セーブの手動削除等、(1)を通らずにランが失われたケースの取りこぼしを拾う)。
-/// マルチプレイの中断セーブ(<c>current_run_mp.save</c>)はシードを安全に読み取る公開APIが無いため、
-/// 存在する場合はこの回のスイープを見送る(=消しすぎない安全側に倒す)。
-/// 起動直後ではなく「このDetectorが最初に呼ばれた時」にしているのは、<c>SaveManager.Instance</c>の
-/// プロファイルがmod初期化のタイミングではまだ準備できていない場合があるため
-/// (sts2_dev_knowledge/topics/game-fundamentals.mdの「プロファイル切り替えの検知」参照)。戦闘に
-/// 入れている時点でプロファイルは必ず確定しているので、ここまで遅延させれば安全に判定できる。
-/// </para>
-/// </remarks>
 public sealed class RetryCountDetector : PlayDetector
 {
     private const string Topic = "RETRY_COUNT";
