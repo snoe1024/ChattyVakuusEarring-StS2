@@ -1,5 +1,3 @@
-using System;
-using System.Text.RegularExpressions;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 using Godot;
 using MegaCrit.Sts2.Core.Helpers;
@@ -20,9 +18,6 @@ internal static class CardRewardVakuuBubble
 {
     /// <summary>非強制発言の最短表示時間(秒)。</summary>
     private const double MinDurationSeconds = 1.5;
-
-    /// <summary>1文字あたりの表示時間(秒)。<c>TalkCmd</c>の計算式(戦闘中)に合わせている。</summary>
-    private const double SecondsPerChar = 0.12;
 
     /// <summary>
     /// 特定のカードについて言う時、棘の先端をカードのどこに置くか(カード上辺中央からの微小オフセット。
@@ -90,7 +85,7 @@ internal static class CardRewardVakuuBubble
     public static bool TryShow(CardRewardObserver observer, CardModel? anchorCard, Utterance utterance)
     {
         string text = utterance.Line.GetFormattedText();
-        double duration = Math.Max(MinDurationSeconds, GetRawCharCount(text) * SecondsPerChar);
+        double duration = SpeechDuration.Compute(text, MinDurationSeconds);
 
         (Vector2 CardEdge, DialogueSide Side)? cardAnchor =
             anchorCard != null ? GetCardEdgeAnchor(observer, anchorCard) : null;
@@ -202,15 +197,5 @@ internal static class CardRewardVakuuBubble
         Vector2 position = center + new Vector2(useLeft ? -clearX : clearX, -TopCornerUpwardOffset);
         DialogueSide side = useLeft ? DialogueSide.Right : DialogueSide.Left;
         return (position, side);
-    }
-
-    /// <summary>
-    /// <c>TalkCmd.GetRawCharCount</c>と同じ計算(BBCode・改行・空白を除いた文字数)。あちらはprivateなので複製
-    /// (<c>ShopChatter.ShopVakuuBubble</c>と同じ複製)。
-    /// </summary>
-    private static int GetRawCharCount(string bbcodeText)
-    {
-        string text = Regex.Replace(bbcodeText, "\\[/?[^\\]]+\\]", "");
-        return text.Replace("\n", "").Replace("\r", "").Replace(" ", "").Length;
     }
 }

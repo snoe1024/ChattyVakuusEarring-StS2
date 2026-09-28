@@ -22,13 +22,6 @@ namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Observer;
 /// <summary>
 /// プレイヤー(囁きのイヤリングの持ち主)のプレイを観察する窓口。Detectorはここを読んで条件を判定する。
 /// </summary>
-/// <remarks>
-/// 状態を溜め込まず、なるべくゲーム本体の現在値・<c>CombatHistory</c>をその都度引く薄い読み取り専用の層にしている
-/// (溜め込むと戦闘途中の生成・巻き戻しなどで簡単に食い違うため。
-/// sts2_dev_knowledge/topics/model-lifecycle-and-saves.mdの「CombatHistoryを使った状態追跡パターン」参照)。
-/// 判定に必要な情報が足りなくなったら、Detectorに直接ゲーム本体を触らせず、まずここにプロパティ/メソッドを足す。
-/// 1つのObserverは1人の持ち主・1回の戦闘に対応し、<see cref="ChatterSession"/>が生成する。
-/// </remarks>
 public sealed class PlayObserver
 {
     private readonly ICombatState _combatState;

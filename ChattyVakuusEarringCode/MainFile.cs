@@ -3,6 +3,7 @@ using System.Reflection;
 using BaseLib.Config;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.CardRewardChatter;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter;
+using ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.ShopChatter;
 using Godot;
@@ -38,16 +39,14 @@ public partial class MainFile : Node
 
         harmony.PatchAll(assembly);
 
-        // [HarmonyPatch]の付け方を間違えると、例外も出ずに何もパッチされないことがある。
-        // 実際にパッチされたメソッドを毎起動時に出しておき、godot.logだけで気付けるようにする。
-        // (sts2_dev_knowledge/topics/harmony-patching.md)
-        var patchedMethods = harmony.GetPatchedMethods().ToList();
-        Logger.Info($"{ModId}: Harmony patched {patchedMethods.Count} method(s) on startup:");
-        foreach (var method in patchedMethods)
-        {
-            Logger.Info($"{ModId}:   - {method.DeclaringType?.FullName}.{method.Name}");
-        }
+        // var patchedMethods = harmony.GetPatchedMethods().ToList();
+        // Logger.Info($"{ModId}: Harmony patched {patchedMethods.Count} method(s) on startup:");
+        // foreach (var method in patchedMethods)
+        // {
+        //     Logger.Info($"{ModId}:   - {method.DeclaringType?.FullName}.{method.Name}");
+        // }
 
+        SpeechDuration.InitializeSpeechMultiplier();
         ChatterHub.Initialize();
         ShopChatterHub.Initialize();
         CardRewardChatterHub.Initialize();

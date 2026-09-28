@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using MegaCrit.Sts2.Core.Commands;
+using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
 using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
+using MegaCrit.Sts2.Core.Nodes.Vfx.Utilities;
 
 namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter.Speaker;
 
@@ -33,15 +35,15 @@ public sealed class VakuuSpeaker
 
     /// <summary>ヴァクーが喋る吹き出しの出所となるクリーチャー(=囁きのイヤリングの持ち主)。戦闘中に使う。</summary>
     public VakuuSpeaker(Creature voice)
-        : this(utterance => TalkCmd.Play(utterance.Line, voice, VfxColor.Purple) != null)
+        : this(utterance => PlaySpeechBubble(utterance, voice))
     {
     }
 
     /// <summary>
     /// 発言の中身(<see cref="Utterance"/>)を、実際にどう表示するか(吹き出しをどこにどう出すか)を渡す版。
     /// 喋る/黙るの判断(このクラスの本分)は共通で、表示方法だけを差し替えたい場面向け
-    /// (例: <c>ShopChatter.ShopVakuuBubble.TryShow</c> — ショップでは<c>Creature</c>基準の
-    /// <c>TalkCmd.Play</c>が使えないため、座標基準の吹き出し表示に差し替える)。
+    /// (例: <c>ShopChatter.ShopVakuuBubble.TryShow</c> — ショップでは<c>Creature</c>基準の位置決めが
+    /// 使えないため、座標基準の吹き出し表示に差し替える)。
     /// </summary>
     /// <param name="emit">発言を表示する処理。実際に表示できたらtrueを返すこと。</param>
     public VakuuSpeaker(Func<Utterance, bool> emit)
@@ -50,7 +52,7 @@ public sealed class VakuuSpeaker
     }
 
     /// <summary>
-    /// このクラス自身が<c>TalkCmd.Play</c>を呼んでいる最中だけtrue。バニラのイヤリング台詞を抑制するパッチが、
+    /// このクラス自身が吹き出しを出している最中だけtrue。バニラのイヤリング台詞を抑制するパッチが、
     /// 自分たちの発言まで誤って抑制しないための目印。
     /// </summary>
     internal static bool IsEmitting { get; private set; }
@@ -124,6 +126,35 @@ public sealed class VakuuSpeaker
         {
             IsEmitting = false;
         }
+    }
+
+    /// <summary>
+    /// 戦闘中の吹き出し表示。本家<c>TalkCmd.Play</c>相当の処理(位置決めは<c>Creature</c>基準の
+    /// <see cref="NSpeechBubbleVfx.Create(string,Creature,double,VfxColor)"/>にそのまま任せる)だが、
+    /// 表示時間だけ<see cref="SpeechDuration"/>(ユーザー設定の倍率込み)で計算し直す。
+    /// </summary>
+    /// <remarks>
+    /// 2026-09、<c>TalkCmd.Play</c>の直接呼び出しから変更した: あちらは表示時間を内部で固定計算していて
+    /// 外から倍率をかける手段が無いため(<see cref="ChattyVakuusEarringConfig.SpeechDurationMultiplier"/>の
+    /// 新設に伴う変更)。
+    /// </remarks>
+    private static bool PlaySpeechBubble(Utterance utterance, Creature speaker)
+    {
+        if (speaker.IsDead)
+        {
+            return false;
+        }
+
+        string text = utterance.Line.GetFormattedText();
+        double duration = SpeechDuration.Compute(text, minSeconds: 0.5);
+        NSpeechBubbleVfx? bubble = NSpeechBubbleVfx.Create(text, speaker, duration, VfxColor.Purple);
+        if (bubble == null)
+        {
+            return false;
+        }
+
+        speaker.GetVfxContainer()?.AddChildSafely(bubble);
+        return true;
     }
 
     private readonly record struct SpokenRecord(string Key, IReadOnlyList<UtteranceTag> Tags, long Timestamp);
