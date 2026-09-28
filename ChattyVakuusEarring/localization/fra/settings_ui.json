@@ -2,5 +2,9 @@
   "CHATTYVAKUUSEARRING.mod_title": "La boucle d'oreille bavarde de Vakuu",
 
   "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Autoriser les chuchotements sans la boucle d'oreille",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Active le système de chuchotement de Vakuu même sans la Boucle d'oreille susurrante. Les effets de la relique et les dialogues qui en découlent ne se produisent pas."
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Active le système de chuchotement de Vakuu même sans la Boucle d'oreille susurrante. Les effets de la relique et les dialogues qui en découlent ne se produisent pas.",
+
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Multiplicateur de durée des bulles de dialogue",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Multiplie la durée d'affichage des bulles de dialogue de Vakuu. Augmente cette valeur si tu n'as pas le temps de terminer ta lecture avant que la bulle ne disparaisse.",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
 }

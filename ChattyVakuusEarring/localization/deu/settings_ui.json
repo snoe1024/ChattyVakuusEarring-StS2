@@ -2,5 +2,9 @@
   "CHATTYVAKUUSEARRING.mod_title": "Vakuus geschwätzige Ohrringe",
 
   "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Flüstern auch ohne die Ohrringe erlauben",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Aktiviert Vakuus Flüster-System auch ohne die Flüsternden Ohrringe. Die Effekte des Relikts und die dadurch ausgelösten Dialoge treten dabei nicht ein."
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Aktiviert Vakuus Flüster-System auch ohne die Flüsternden Ohrringe. Die Effekte des Relikts und die dadurch ausgelösten Dialoge treten dabei nicht ein.",
+
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Multiplikator für die Sprechblasendauer",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Verlängert die Anzeigedauer von Vakuus Sprechblasen um diesen Faktor. Erhöhe den Wert weiter, wenn du den Text nicht rechtzeitig zu Ende lesen kannst, bevor die Sprechblase verschwindet.",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
 }

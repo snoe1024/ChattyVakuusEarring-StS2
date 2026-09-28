@@ -2,5 +2,9 @@
   "CHATTYVAKUUSEARRING.mod_title": "ヴァクーの囁きまくるイヤリング",
   
   "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "イヤリング無しでも発言を許可する",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "囁きのイヤリングを持っていなくても、ヴァクーの発言を有効にします。レリックの効果やそれに起因する発言は発生しません。"
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "囁きのイヤリングを持っていなくても、ヴァクーの発言を有効にします。レリックの効果やそれに起因する発言は発生しません。",
+
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "吹き出しの表示時間の倍率",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "ヴァクーの吹き出しが表示される時間を、この倍率で伸ばします。台詞の分量に対して読む時間が足りないと感じる場合はさらに大きくしてください。",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
 }

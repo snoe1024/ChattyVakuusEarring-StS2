@@ -2,5 +2,9 @@
   "CHATTYVAKUUSEARRING.mod_title": "瓦库的话痨耳环",
 
   "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "允许在没有耳环时也低语",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使没有低语耳环，也会启用瓦库的低语系统。遗物的效果及由此触发的台词不会发生。"
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使没有低语耳环，也会启用瓦库的低语系统。遗物的效果及由此触发的台词不会发生。",
+
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "对话气泡显示时长倍率",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "按此倍率延长瓦库对话气泡的显示时间。如果你常常来不及读完台词气泡就消失了，请调高这个数值。",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
 }
