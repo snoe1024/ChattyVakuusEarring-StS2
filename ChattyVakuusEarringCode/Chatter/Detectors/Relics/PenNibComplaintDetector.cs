@@ -65,6 +65,12 @@ public class PenNibComplaintDetector : PlayDetector
         var requiredDamage = lastPlayedTarget.CurrentHp + lastAttackDamage * 2;
         foreach (var card in playableCards)
         {
+            // 爪や引き裂きは成長するので、同じカードなら無視する
+            if (lastPlayedCard.Id == card.Id)
+            {
+                continue;
+            }
+            
             decimal predictedDamage = PlayObserver.GetAttackDamageVar(card) switch
             {
                 CalculatedDamageVar calculatedDamageVar => calculatedDamageVar.Calculate(lastPlayedTarget),
@@ -73,7 +79,7 @@ public class PenNibComplaintDetector : PlayDetector
             };
             if (predictedDamage < 0m)
             {
-                break;
+                continue;
             }
             
             predictedDamage *= damageMultiplier * (card.DynamicVars.TryGetValue("Repeat", out var pc) ? pc.IntValue : 1);
