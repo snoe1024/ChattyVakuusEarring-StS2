@@ -22,8 +22,6 @@ public sealed class SaveScummingDetector : PlayDetector
             return null;
         }
         
-        MainFile.Logger.Info("Save Scumming Detected!", 1);
-        
         LocString? line = SpeechTable.Pick(Topic);
         if (line == null)
         {

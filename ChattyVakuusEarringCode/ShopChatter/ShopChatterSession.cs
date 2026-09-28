@@ -36,11 +36,6 @@ internal sealed class ShopChatterSession
                 MainFile.Logger.Error($"{MainFile.ModId}: {detector.Id}.ShouldActivate threw, deactivated: {e}");
             }
         }
-
-        MainFile.Logger.Info(
-            $"{MainFile.ModId}: shop chatter session started for player {owner.NetId}, " +
-            $"{_activeDetectors.Count}/{all.Count} detector(s) active: " +
-            string.Join(", ", _activeDetectors.Select(d => d.Id)));
     }
 
     public ShopObserver Observer { get; }

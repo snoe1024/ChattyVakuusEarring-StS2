@@ -60,7 +60,6 @@ public sealed class VakuuSpeaker
     {
         if (!utterance.Force && !PassesEtiquette(utterance, out string reason))
         {
-            MainFile.Logger.Debug($"{MainFile.ModId}: skipped {utterance.Line.LocEntryKey} ({utterance.DetectorId}): {reason}");
             return false;
         }
 
@@ -75,7 +74,6 @@ public sealed class VakuuSpeaker
             _recent.RemoveAt(0);
         }
 
-        MainFile.Logger.Info($"{MainFile.ModId}: spoke {utterance.Line.LocEntryKey} ({utterance.DetectorId}{(utterance.Force ? ", forced" : "")})");
         return true;
     }
 

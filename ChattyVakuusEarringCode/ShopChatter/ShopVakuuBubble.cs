@@ -47,7 +47,6 @@ internal static class ShopVakuuBubble
         NMerchantCharacter? visual = GetLocalPlayerVisual();
         if (visual == null)
         {
-            MainFile.Logger.Debug($"{MainFile.ModId}: shop speech skipped, no player visual found");
             return false;
         }
 

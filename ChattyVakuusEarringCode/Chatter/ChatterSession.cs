@@ -50,11 +50,6 @@ internal sealed class ChatterSession : IDisposable
                 MainFile.Logger.Error($"{MainFile.ModId}: {detector.Id}.ShouldActivate threw, deactivated: {e}");
             }
         }
-
-        MainFile.Logger.Info(
-            $"{MainFile.ModId}: chatter session started for player {owner.NetId}, " +
-            $"{_activeDetectors.Count}/{all.Count} detector(s) active: " +
-            string.Join(", ", _activeDetectors.Select(d => d.Id)));
     }
 
     public PlayObserver Observer { get; }

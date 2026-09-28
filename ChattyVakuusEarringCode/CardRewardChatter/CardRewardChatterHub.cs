@@ -219,13 +219,11 @@ internal static class CardRewardChatterHub
         {
             if (_lastSpokenTimestamp is { } last && Stopwatch.GetElapsedTime(last) < MinInterval)
             {
-                MainFile.Logger.Debug($"{MainFile.ModId}: card reward speech skipped, spoke recently");
                 return;
             }
 
             if (ChatterRandom.NextDouble() >= utterance.Probability)
             {
-                MainFile.Logger.Debug($"{MainFile.ModId}: card reward speech skipped, probability roll failed");
                 return;
             }
         }

@@ -118,7 +118,6 @@ internal static class CardRewardVakuuBubble
 
         if (bubble == null)
         {
-            MainFile.Logger.Debug($"{MainFile.ModId}: card reward speech skipped, bubble Create returned null");
             return false;
         }
 
@@ -130,10 +129,6 @@ internal static class CardRewardVakuuBubble
         // (本家NEventOptionButtonの使い方と同じ順序)。
         bubble.GlobalPosition = position;
 
-        // Info(Debugは実機のログで出ていないことがあるため、位置調整の検証中はInfoにしてある)。
-        MainFile.Logger.Info(
-            $"{MainFile.ModId}: card reward bubble ({bubble.GetType().Name}) shown at {position} " +
-            $"(anchor={anchorCard?.Id.Entry ?? "none"}, viewport={observer.Screen.GetViewportRect()}, duration={duration:F1}s)");
         return true;
     }
 
