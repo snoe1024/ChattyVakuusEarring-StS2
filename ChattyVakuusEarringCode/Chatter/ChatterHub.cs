@@ -14,6 +14,7 @@ using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Relics;
+using MegaCrit.Sts2.Core.Rooms;
 
 namespace ChattyVakuusEarring.ChattyVakuusEarringCode.Chatter;
 
@@ -57,6 +58,7 @@ internal static class ChatterHub
         combat.PlayerUnendedTurn += player => Guard(() => OnPlayerUnendedTurn(player));
         combat.AboutToSwitchToEnemyTurn += _ => Guard(OnTurnReallyEnded);
         combat.History.Changed += () => Guard(OnHistoryChanged);
+        combat.CombatWon += room => Guard(() => OnCombatWon(room));
         combat.CombatEnded += _ => Guard(OnCombatEnded);
     }
 
@@ -358,11 +360,31 @@ internal static class ChatterHub
                     foreach (ChatterSession session in Sessions.Where(s => s.Owner.Creature == taken.Receiver).ToList())
                     {
                         session.Observer.LastDamageTaken = taken;
+                        // 完封勝利の判定用にここで確定させておく(理由はPlayObserver.HasTakenUnblockedDamageThisCombat参照。
+                        // CombatWon発火時にはCombatHistoryが既にClearされていて都度走査できないため)。
+                        if (taken.Dealer?.Side == CombatSide.Enemy && taken.Result.UnblockedDamage > 0)
+                        {
+                            session.Observer.HasTakenUnblockedDamageThisCombat = true;
+                        }
+
                         session.Dispatch(DetectorTrigger.DamageTaken);
                     }
 
                     break;
             }
+        }
+    }
+
+    /// <summary>
+    /// 戦闘に勝利した瞬間(<c>CombatManager.CombatWon</c>)。<c>CombatEnded</c>より先に発火するので、
+    /// <see cref="OnCombatEnded"/>によるセッション破棄より前に安全に扱える
+    /// (<see cref="DetectorTrigger.CombatWon"/>のXMLドキュメント参照: なぜ<c>EnemyKilled</c>を使わないか)。
+    /// </summary>
+    private static void OnCombatWon(CombatRoom room)
+    {
+        foreach (ChatterSession session in Sessions.ToList())
+        {
+            session.Dispatch(DetectorTrigger.CombatWon);
         }
     }
 
