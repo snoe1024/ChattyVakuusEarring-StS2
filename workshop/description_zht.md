@@ -14,7 +14,10 @@ BaseLib(作為工作坊相依項目自動安裝)。
 
 [b]支援語言[/b]
 作者是日本人，因此除日文外的內容均為AI機器翻譯。歡迎提出修正建議！
+我們在Google試算表上徵集並評估各語言版本的台詞，有興趣的話歡迎參與。
+[url=https://docs.google.com/spreadsheets/d/1VJfimzxGFa3HGw4PM1-nGzZ4dzNeyS7zY-siFZz3Q_8/edit?usp=sharing]Chatty Vakuu's Earring Mod - Localization & Translation Suggestions[/url]
+就算提出新台詞有點困難，也可以為你所在語言的現有台詞投票。歡迎協助找出並刪除AI生成的、不自然的瓦庫台詞。
 
 [b]回饋[/b]
-歡迎透過GitHub issue提交錯誤回報和翻譯修正：
+歡迎透過GitHub issue提交錯誤回報和內容修正：
 [url=https://github.com/snoe1024/ChattyVakuusEarring-StS2]https://github.com/snoe1024/ChattyVakuusEarring-StS2[/url]

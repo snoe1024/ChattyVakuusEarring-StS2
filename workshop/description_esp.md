@@ -14,7 +14,10 @@ BaseLib (se instala automáticamente como dependencia del Workshop).
 
 [b]Idiomas[/b]
 El desarrollador es japonés, así que aparte del japonés todo está traducido automáticamente. Las correcciones son muy bienvenidas.
+En una hoja de cálculo de Google recopilamos y valoramos propuestas de diálogos para cada idioma -- si te interesa, no dudes en participar.
+[url=https://docs.google.com/spreadsheets/d/1VJfimzxGFa3HGw4PM1-nGzZ4dzNeyS7zY-siFZz3Q_8/edit?usp=sharing]Chatty Vakuu's Earring Mod - Localization & Translation Suggestions[/url]
+Aunque proponer líneas nuevas te parezca demasiado, igualmente puedes votar las líneas ya existentes en tu idioma. Ayúdanos a detectar y eliminar las frases de Vakuu generadas por IA que suenen poco naturales.
 
 [b]Comentarios[/b]
-Los informes de errores y las correcciones de traducción son bienvenidos como issues de GitHub:
+Los informes de errores y las correcciones de contenido son bienvenidos como issues de GitHub:
 [url=https://github.com/snoe1024/ChattyVakuusEarring-StS2]https://github.com/snoe1024/ChattyVakuusEarring-StS2[/url]

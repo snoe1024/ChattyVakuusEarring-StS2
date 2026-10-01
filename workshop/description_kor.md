@@ -14,7 +14,10 @@ BaseLib (워크샵 종속 항목으로 자동 설치됩니다).
 
 [b]지원 언어[/b]
 제작자가 일본인이라 일본어를 제외한 모든 언어는 기계 번역입니다. 수정 제안을 환영합니다.
+각 언어별 대사 제안과 평가를 구글 스프레드시트에서 진행하고 있으니, 관심 있으신 분은 참여해 주세요.
+[url=https://docs.google.com/spreadsheets/d/1VJfimzxGFa3HGw4PM1-nGzZ4dzNeyS7zY-siFZz3Q_8/edit?usp=sharing]Chatty Vakuu's Earring Mod - Localization & Translation Suggestions[/url]
+직접 대사를 제안하기 어렵더라도, 해당 언어의 기존 대사에 투표하는 것만으로도 도움이 됩니다. AI가 작성한 부자연스러운 바쿠의 대사를 찾아 걸러내는 데 협력해 주세요.
 
 [b]피드백[/b]
-버그 제보와 번역 수정은 GitHub 이슈로 언제든 환영합니다:
+버그 제보와 콘텐츠 수정은 GitHub 이슈로 언제든 환영합니다:
 [url=https://github.com/snoe1024/ChattyVakuusEarring-StS2]https://github.com/snoe1024/ChattyVakuusEarring-StS2[/url]
