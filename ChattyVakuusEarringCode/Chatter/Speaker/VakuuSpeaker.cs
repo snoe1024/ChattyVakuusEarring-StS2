@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using ChattyVakuusEarring.ChattyVakuusEarringCode.Config;
+using Godot;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Helpers;
+using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
 using MegaCrit.Sts2.Core.Nodes.Vfx.Utilities;
 
@@ -25,6 +27,13 @@ public sealed class VakuuSpeaker
 
     /// <summary>直前の発言と同じタグを持つ発言を弾く期間。これより時間が経っていれば同じ話題でも許す。</summary>
     private static readonly TimeSpan SameTagWindow = TimeSpan.FromSeconds(6);
+
+    /// <summary>
+    /// <see cref="ChattyVakuusEarringConfig.RaiseBubble"/>がオンの時、戦闘中の吹き出しをずらす量(上方向が負、1920x1080基準のpx)。
+    /// ユーザーに数値を選ばせず固定にしている。吹き出しの上端が、画面左上のレリック一覧の1行目にギリギリ
+    /// かぶるくらいを狙って実機で調整する。
+    /// </summary>
+    private static readonly Vector2 RaisedOffset = new(0f, -150f);
 
     /// <summary>同じ台詞の再発言を避けるために覚えておく、直近の発言数。</summary>
     private const int RepeatMemory = 6;
@@ -153,7 +162,21 @@ public sealed class VakuuSpeaker
             return false;
         }
 
-        speaker.GetVfxContainer()?.AddChildSafely(bubble);
+        if (ChattyVakuusEarringConfig.RaiseBubble)
+        {
+            // 位置は<c>NSpeechBubbleVfx._Ready</c>が<c>GlobalPosition</c>に直接代入する(<c>_startPos</c>はprivateで
+            // 外から変えられない)ので、その後に足す。<c>Ready</c>シグナルは<c>_Ready</c>の後に発火し、追加が
+            // 遅延された場合(<c>AddChildSafely</c>の<c>CallDeferred</c>)でも確実に後から効く。
+            bubble.Ready += () => bubble.GlobalPosition += RaisedOffset;
+        }
+
+        // 既定の親(CombatVfxContainer)は戦闘UIより背面。その親である部屋のルートに末尾の子として足せば、
+        // ツリー順でPlayContainerや手札より手前に出る(図鑑など戦闘部屋以外のコンテナはそのまま使う)。
+        Control? container = speaker.GetVfxContainer();
+        Node? parent = ChattyVakuusEarringConfig.BubbleInFrontOfCards && container?.GetParent() is NCombatRoom room
+            ? room
+            : container;
+        parent?.AddChildSafely(bubble);
         return true;
     }
 

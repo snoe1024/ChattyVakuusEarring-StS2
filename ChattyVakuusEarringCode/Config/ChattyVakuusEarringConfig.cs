@@ -18,6 +18,20 @@ public sealed class ChattyVakuusEarringConfig : SimpleModConfig
     /// </summary>
     public static bool AllowWhisperingWithoutEarring { get; set; }
 
+    /// <summary>
+    /// 戦闘中のヴァクーの吹き出しを、プレイ中のカードや手札より手前に表示する。オフなら本家の
+    /// <c>TalkCmd</c>と同じ、戦闘UI(<c>NCombatUi</c>)より背面(<c>CombatVfxContainer</c>の<c>ZIndex = -9</c>)に出る
+    /// ため、カードの陰に隠れることがある。
+    /// </summary>
+    public static bool BubbleInFrontOfCards { get; set; } = true;
+
+    /// <summary>
+    /// 戦闘中のヴァクーの吹き出しを、固定量だけ上にずらして表示する(量は
+    /// <see cref="Chatter.Speaker.VakuuSpeaker"/>側の定数)。カードの手前に出すとカードが隠れる、
+    /// と感じる人向けに、<see cref="BubbleInFrontOfCards"/>とは別軸で選べる。
+    /// </summary>
+    public static bool RaiseBubble { get; set; }
+
     private const float DefaultSpeechDurationMultiplier = 1.0f;
 
     /// <summary>

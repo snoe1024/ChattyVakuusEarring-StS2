@@ -38,7 +38,7 @@ internal static class SpeechDuration
 
     private const double FastModeSecondsPerChar = 0.1;
 
-    private const double CjkSpeechMultiplier = 1.75;
+    private const double CjkSpeechMultiplier = 1.5;
     private const double OtherSpeechMultiplier = 1.0;
 
     private static double _speechMultiplier = 1.0;
