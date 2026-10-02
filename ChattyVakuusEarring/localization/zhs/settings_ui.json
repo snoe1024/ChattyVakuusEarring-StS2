@@ -1,10 +1,16 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "瓦库的话痨耳环",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "允许在没有耳环时也低语",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使没有低语耳环，也会启用瓦库的低语系统。遗物的效果及由此触发的台词不会发生。",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "即使没有耳环也允许瓦库发言",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使没有低语耳环，也会启用瓦库的发言。\n该遗物的效果及由其引发的发言不会出现。",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "对话气泡显示时长倍率",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "按此倍率延长瓦库对话气泡的显示时间。如果你常常来不及读完台词气泡就消失了，请调高这个数值。",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "按此倍率延长瓦库对话气泡的显示时间。\n如果觉得相对于台词的分量，可供阅读的时间不够，请进一步调大此数值。",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}",
+
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.title": "将对话气泡显示在卡牌前方",
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.hover.desc": "战斗中，将瓦库的对话气泡显示在正在打出的卡牌前方。\n关闭后，气泡可能会被卡牌挡住。",
+
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.title": "将对话气泡稍微上移",
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.hover.desc": "战斗中，将瓦库的对话气泡稍微向上移动显示。\n如果你既不喜欢气泡挡住正在打出的卡牌，也不喜欢气泡被卡牌挡住，请使用此项。"
 }

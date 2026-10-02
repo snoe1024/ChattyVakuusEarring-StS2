@@ -1,10 +1,16 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "Vakuus geschwätzige Ohrringe",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Flüstern auch ohne die Ohrringe erlauben",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Aktiviert Vakuus Flüster-System auch ohne die Flüsternden Ohrringe. Die Effekte des Relikts und die dadurch ausgelösten Dialoge treten dabei nicht ein.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Vakuu auch ohne die Ohrringe sprechen lassen",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Aktiviert Vakuus Äußerungen auch ohne die Flüsternden Ohrringe.\nDie Effekte des Relikts und die dadurch ausgelösten Äußerungen treten nicht ein.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Multiplikator für die Sprechblasendauer",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Verlängert die Anzeigedauer von Vakuus Sprechblasen um diesen Faktor. Erhöhe den Wert weiter, wenn du den Text nicht rechtzeitig zu Ende lesen kannst, bevor die Sprechblase verschwindet.",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Verlängert die Anzeigedauer von Vakuus Sprechblasen um diesen Faktor.\nFalls dir die Zeit zum Lesen im Verhältnis zur Textmenge zu knapp ist, erhöhe den Wert weiter.",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}",
+
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.title": "Sprechblasen vor den Karten anzeigen",
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.hover.desc": "Zeigt Vakuus Sprechblasen im Kampf vor der Karte an, die gerade gespielt wird.\nWenn deaktiviert, können sie hinter Karten verdeckt werden.",
+
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.title": "Sprechblasen etwas höher anzeigen",
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.hover.desc": "Verschiebt Vakuus Sprechblasen im Kampf etwas nach oben.\nNützlich, wenn du es weder magst, dass eine Blase die gerade gespielte Karte verdeckt, noch dass sie hinter der Karte verschwindet."
 }

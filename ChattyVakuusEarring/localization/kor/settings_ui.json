@@ -2,9 +2,15 @@
   "CHATTYVAKUUSEARRING.mod_title": "바쿠의 수다스러운 귀걸이",
 
   "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "귀걸이 없이도 발언 허용",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "속삭이는 귀걸이가 없어도 바쿠의 발언 시스템을 활성화합니다. 유물의 효과와 그로 인한 대사는 발생하지 않습니다.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "속삭이는 귀걸이가 없어도 바쿠의 발언을 활성화합니다.\n유물의 효과와 그로 인한 발언은 발생하지 않습니다.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "말풍선 표시 시간 배율",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "바쿠의 말풍선이 화면에 표시되는 시간을 이 배율만큼 늘립니다. 말풍선이 사라지기 전에 다 읽지 못한다면 이 값을 더 높여 보세요.",
-  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}"
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "바쿠의 말풍선이 표시되는 시간을 이 배율만큼 늘립니다.\n대사 분량에 비해 읽을 시간이 부족하다고 느껴지면 더 크게 설정하세요.",
+  "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.sliderFormat": "×{0:0.0}",
+
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.title": "말풍선을 카드보다 앞에 표시",
+  "CHATTYVAKUUSEARRING-BUBBLE_IN_FRONT_OF_CARDS.hover.desc": "전투 중 바쿠의 말풍선을 사용 중인 카드보다 앞에 표시합니다.\n끄면 카드 뒤에 가려질 수 있습니다.",
+
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.title": "말풍선을 약간 위에 표시",
+  "CHATTYVAKUUSEARRING-RAISE_BUBBLE.hover.desc": "전투 중 바쿠의 말풍선을 약간 위로 옮겨 표시합니다.\n사용 중인 카드가 가려지는 것도, 말풍선이 가려지는 것도 원하지 않을 때 사용하세요."
 }
