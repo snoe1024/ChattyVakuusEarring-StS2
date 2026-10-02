@@ -1,8 +1,8 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "瓦庫的話癆耳環",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "即使沒有耳環也允許瓦庫發言",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使沒有低語耳環，也會啟用瓦庫的發言。\n該遺物的效果及由其引發的發言不會出現。",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "即使沒有耳環也允許低語",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "即使沒有低語耳環，也會啟用瓦庫的低語。\n該遺物的效果及由其引發的低語不會出現。",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "對話氣泡顯示時長倍率",
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "依此倍率延長瓦庫對話氣泡的顯示時間。\n如果覺得相對於台詞的分量，可供閱讀的時間不夠，請進一步調大此數值。",

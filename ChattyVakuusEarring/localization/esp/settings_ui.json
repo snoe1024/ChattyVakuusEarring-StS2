@@ -1,8 +1,8 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "El pendiente parlanchín de Vakuu",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Permitir que Vakuu hable sin el pendiente",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Activa las intervenciones de Vakuu incluso sin los Pendientes susurrantes.\nLos efectos de la reliquia y las intervenciones que provocan no se producen.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Permitir susurros sin el pendiente",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Activa los susurros de Vakuu incluso sin los Pendientes susurrantes.\nLos efectos de la reliquia y los susurros que provocan no se producen.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Multiplicador de duración de los globos de diálogo",
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Alarga el tiempo que se muestran los globos de diálogo de Vakuu según este multiplicador.\nSi sientes que el tiempo de lectura se queda corto para la cantidad de texto, auméntalo aún más.",

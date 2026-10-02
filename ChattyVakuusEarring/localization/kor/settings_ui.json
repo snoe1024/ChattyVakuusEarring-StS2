@@ -1,8 +1,8 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "바쿠의 수다스러운 귀걸이",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "귀걸이 없이도 발언 허용",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "속삭이는 귀걸이가 없어도 바쿠의 발언을 활성화합니다.\n유물의 효과와 그로 인한 발언은 발생하지 않습니다.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "귀걸이 없이도 속삭임 허용",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "속삭이는 귀걸이가 없어도 바쿠의 속삭임을 활성화합니다.\n유물의 효과와 그로 인한 속삭임은 발생하지 않습니다.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "말풍선 표시 시간 배율",
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "바쿠의 말풍선이 표시되는 시간을 이 배율만큼 늘립니다.\n대사 분량에 비해 읽을 시간이 부족하다고 느껴지면 더 크게 설정하세요.",

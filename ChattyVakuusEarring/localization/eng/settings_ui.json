@@ -1,8 +1,8 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "Chatty Vakuu's Earring",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Allow Vakuu to Speak Without the Earring",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Enables Vakuu's speech even if you don't have the Whispering Earring.\nThe relic's effects, and any dialogue caused by those effects, will not occur.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Allow Whispering Without the Earring",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Enables Vakuu's whispering even if you don't have the Whispering Earring.\nThe relic's effects, and any whispers caused by those effects, will not occur.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Speech Bubble Duration Multiplier",
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Extends how long Vakuu's speech bubbles stay on screen by this multiplier.\nIf you feel you don't get enough time to read the dialogue, increase it further.",

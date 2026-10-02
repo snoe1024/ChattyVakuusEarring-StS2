@@ -1,8 +1,8 @@
 {
   "CHATTYVAKUUSEARRING.mod_title": "Болтливая серьга Вакуу",
 
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Разрешить Вакуу говорить без серьги",
-  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Включает реплики Вакуу, даже если у вас нет Шепчущей серьги.\nЭффекты реликвии и связанные с ними реплики при этом не срабатывают.",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.title": "Разрешить шёпот без серьги",
+  "CHATTYVAKUUSEARRING-ALLOW_WHISPERING_WITHOUT_EARRING.hover.desc": "Включает шёпот Вакуу, даже если у вас нет Шепчущей серьги.\nЭффекты реликвии и вызванный ими шёпот при этом не срабатывают.",
 
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.title": "Множитель времени показа речевых облачков",
   "CHATTYVAKUUSEARRING-SPEECH_DURATION_MULTIPLIER.hover.desc": "Увеличивает время показа речевых облачков Вакуу во столько раз.\nЕсли вам кажется, что времени на чтение недостаточно для такого объёма реплик, увеличьте значение ещё больше.",
